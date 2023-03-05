@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: ZhangYuhanのblog
+subtitle: ZhangYuhanのblog
+description: 'Record the growth and learning process'
+keywords: 'blog,java,js,日本语'
+author: ZhangYuhan
 language: en
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://zhangyuhan.netlify.app/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -97,11 +97,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+theme: butterfly # 指定主题
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Zhangyuhannerv/Zhangyuhannerv.github.io.git
+  repo: git@github.com:zhangyuhannerv/zhangyuhannerv.github.io.git
   branch: main
