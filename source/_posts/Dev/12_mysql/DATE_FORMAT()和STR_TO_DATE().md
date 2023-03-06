@@ -1,5 +1,5 @@
 ---
-title: 'FORMAT()和STR_TO_DATE()'
+title: 'DATE_FORMAT()和STR_TO_DATE()'
 date: 2023-03-06 15:47:44
 copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
 categories: 
@@ -8,7 +8,7 @@ categories:
 tags: 
   - 'Dev'
   - 'mysql'
-  - 'FORMAT()和STR_TO_DATE()'
+  - 'DATE_FORMAT()和STR_TO_DATE()'
 ---
 常用的DATE_FORMAA()格式
 ```sql

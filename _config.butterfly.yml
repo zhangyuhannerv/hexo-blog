@@ -137,27 +137,67 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://api.r10086.com/img-api.php?type=动漫综合1
-    - https://api.r10086.com/img-api.php?type=东京食尸鬼横屏系列1
-    - https://api.r10086.com/img-api.php?type=Fate横屏系列1
-    - https://api.r10086.com/img-api.php?type=为美好世界献上祝福横屏系列1
-    - https://api.r10086.com/img-api.php?type=某科学的超电磁炮横屏系列1
-    - https://api.r10086.com/img-api.php?type=原神横屏系列1
-    - https://api.r10086.com/img-api.php?type=罪恶王冠横屏系列1
-    - https://api.r10086.com/img-api.php?type=鬼灭之刃横屏系列1
-    - https://api.r10086.com/img-api.php?type=进击的巨人横屏系列1
-    - https://api.r10086.com/img-api.php?type=从零开始的异世界生活横屏系列1
-    - https://api.r10086.com/img-api.php?type=刀剑神域横屏系列1
-    - https://api.r10086.com/img-api.php?type=缘之空横屏系列1
-    - https://api.r10086.com/img-api.php?type=风景系列1
-    - https://api.r10086.com/img-api.php?type=物语系列1
-    - https://api.likepoems.com/img/pc
-    - https://api.dujin.org/pic/
-    - https://api.ghser.com/random/pc.php
-    - https://api.ixiaowai.cn/api/api2.php
-    - https://www.eee.dog/tech/rand-pic-api.html
-    - https://api.yimian.xyz/img
-    - https://img.paulzzh.com/touhou/random
+    - /img/theme/page_img0.jpg
+    - /img/theme/page_img1.jpg
+    - /img/theme/page_img2.jpg
+    - /img/theme/page_img3.jpg
+    - /img/theme/page_img4.jpg
+    - /img/theme/page_img5.jpg
+    - /img/theme/page_img6.jpg
+    - /img/theme/page_img7.jpg
+    - /img/theme/page_img8.jpg
+    - /img/theme/page_img9.jpg
+    - /img/theme/page_img10.jpg
+    - /img/theme/page_img11.jpg
+    - /img/theme/page_img12.jpg
+    - /img/theme/page_img13.jpg
+    - /img/theme/page_img14.jpg
+    - /img/theme/page_img15.jpg
+    - /img/theme/page_img16.jpg
+    - /img/theme/page_img17.jpg
+    - /img/theme/page_img18.jpg
+    - /img/theme/page_img19.jpg
+    - /img/theme/page_img20.jpg
+    - /img/theme/page_img21.jpg
+    - /img/theme/page_img22.jpg
+    - /img/theme/page_img23.jpg
+    - /img/theme/page_img24.jpg
+    - /img/theme/page_img25.jpg
+    - /img/theme/page_img26.jpg
+    - /img/theme/page_img27.jpg
+    - /img/theme/page_img28.jpg
+    - /img/theme/page_img29.jpg
+    - /img/theme/page_img30.jpg
+    - /img/theme/page_img31.jpg
+    - /img/theme/page_img32.jpg
+    - /img/theme/page_img33.jpg
+    - /img/theme/page_img34.jpg
+    - /img/theme/page_img35.jpg
+    - /img/theme/page_img36.jpg
+    - /img/theme/page_img37.jpg
+    - /img/theme/page_img38.jpg
+    - /img/theme/page_img39.jpg
+    # - https://api.r10086.com/img-api.php?type=动漫综合1
+    # - https://api.r10086.com/img-api.php?type=东京食尸鬼横屏系列1
+    # - https://api.r10086.com/img-api.php?type=Fate横屏系列1
+    # - https://api.r10086.com/img-api.php?type=为美好世界献上祝福横屏系列1
+    # - https://api.r10086.com/img-api.php?type=某科学的超电磁炮横屏系列1
+    # - https://api.r10086.com/img-api.php?type=原神横屏系列1
+    # - https://api.r10086.com/img-api.php?type=罪恶王冠横屏系列1
+    # - https://api.r10086.com/img-api.php?type=鬼灭之刃横屏系列1
+    # - https://api.r10086.com/img-api.php?type=进击的巨人横屏系列1
+    # - https://api.r10086.com/img-api.php?type=从零开始的异世界生活横屏系列1
+    # - https://api.r10086.com/img-api.php?type=刀剑神域横屏系列1
+    # - https://api.r10086.com/img-api.php?type=缘之空横屏系列1
+    # - https://api.r10086.com/img-api.php?type=风景系列1
+    # - https://api.r10086.com/img-api.php?type=物语系列1
+    # - https://api.likepoems.com/img/pc
+    # - https://api.dujin.org/pic/
+    # - https://api.ghser.com/random/pc.php
+    # - https://api.ixiaowai.cn/api/api2.php
+    # - https://www.eee.dog/tech/rand-pic-api.html
+    # - https://api.yimian.xyz/img
+    # - https://img.paulzzh.com/touhou/random
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -666,13 +706,13 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 1
+  source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     #- 今日事&#44;今日畢
     #- Never put off till tomorrow what you can do today
     #- 今日のことは今日で終わります
-    #- 涩涩是人类进步的阶梯  ——沃兹基硕德
+    - 涩涩是人类进步的阶梯  ——沃兹基硕德
 
 # Loading Animation (加載動畫)
 preloader:
