@@ -1,8 +1,6 @@
 ---
 title: hello world
 date: 2023-03-03 16:46:38
-tags:
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
 ---
 
 值此博客建站成功之际，难以抑制内心的激动心情

@@ -40,7 +40,6 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fa-brands fa-qq: tencent://message/?Menu=yes&uin={1355166049} || QQ
   fab fa-github: https://github.com/zhangyuhannerv || Github
   fas fa-envelope: mailto:zhangyuhannerv@gmail.com || Email
 
@@ -138,7 +137,27 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://api.r10086.com/img-api.php?type=动漫综合1
+    - https://api.r10086.com/img-api.php?type=东京食尸鬼横屏系列1
+    - https://api.r10086.com/img-api.php?type=Fate横屏系列1
+    - https://api.r10086.com/img-api.php?type=为美好世界献上祝福横屏系列1
+    - https://api.r10086.com/img-api.php?type=某科学的超电磁炮横屏系列1
+    - https://api.r10086.com/img-api.php?type=原神横屏系列1
+    - https://api.r10086.com/img-api.php?type=罪恶王冠横屏系列1
+    - https://api.r10086.com/img-api.php?type=鬼灭之刃横屏系列1
+    - https://api.r10086.com/img-api.php?type=进击的巨人横屏系列1
+    - https://api.r10086.com/img-api.php?type=从零开始的异世界生活横屏系列1
+    - https://api.r10086.com/img-api.php?type=刀剑神域横屏系列1
+    - https://api.r10086.com/img-api.php?type=缘之空横屏系列1
+    - https://api.r10086.com/img-api.php?type=风景系列1
+    - https://api.r10086.com/img-api.php?type=物语系列1
+    - https://api.likepoems.com/img/pc
+    - https://api.dujin.org/pic/
+    - https://api.ghser.com/random/pc.php
+    - https://api.ixiaowai.cn/api/api2.php
+    - https://www.eee.dog/tech/rand-pic-api.html
+    - https://api.yimian.xyz/img
+    - https://img.paulzzh.com/touhou/random
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -647,13 +666,13 @@ subtitle:
   # source: 2  調用一句網（簡體） http://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     #- 今日事&#44;今日畢
     #- Never put off till tomorrow what you can do today
     #- 今日のことは今日で終わります
-    - 涩涩是人类进步的阶梯  ——沃兹基硕德
+    #- 涩涩是人类进步的阶梯  ——沃兹基硕德
 
 # Loading Animation (加載動畫)
 preloader:
