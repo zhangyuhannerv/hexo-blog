@@ -101,10 +101,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /img/theme/banner.jpg
+index_img: transparent
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: img/theme/top.jpg
+default_top_img: transparent
 
 # The banner image of archive page
 archive_img:
@@ -126,6 +126,14 @@ category_img:
 # format:
 #  - category name: xxxxx
 category_per_img:
+
+# Website Background (設置網站背景)
+# can set it to color or image (可設置圖片 或者 顔色)
+# The formal of image: url(http://xxxxxx.com/xxx.jpg)
+background: url(/img/theme/banner.jpg)
+
+# Footer Background
+footer_bg: transparent
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -177,27 +185,6 @@ cover:
     - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img37.jpg
     - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img38.jpg
     - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img39.jpg
-    # - https://api.r10086.com/img-api.php?type=动漫综合1
-    # - https://api.r10086.com/img-api.php?type=东京食尸鬼横屏系列1
-    # - https://api.r10086.com/img-api.php?type=Fate横屏系列1
-    # - https://api.r10086.com/img-api.php?type=为美好世界献上祝福横屏系列1
-    # - https://api.r10086.com/img-api.php?type=某科学的超电磁炮横屏系列1
-    # - https://api.r10086.com/img-api.php?type=原神横屏系列1
-    # - https://api.r10086.com/img-api.php?type=罪恶王冠横屏系列1
-    # - https://api.r10086.com/img-api.php?type=鬼灭之刃横屏系列1
-    # - https://api.r10086.com/img-api.php?type=进击的巨人横屏系列1
-    # - https://api.r10086.com/img-api.php?type=从零开始的异世界生活横屏系列1
-    # - https://api.r10086.com/img-api.php?type=刀剑神域横屏系列1
-    # - https://api.r10086.com/img-api.php?type=缘之空横屏系列1
-    # - https://api.r10086.com/img-api.php?type=风景系列1
-    # - https://api.r10086.com/img-api.php?type=物语系列1
-    # - https://api.likepoems.com/img/pc
-    # - https://api.dujin.org/pic/
-    # - https://api.ghser.com/random/pc.php
-    # - https://api.ixiaowai.cn/api/api2.php
-    # - https://www.eee.dog/tech/rand-pic-api.html
-    # - https://api.yimian.xyz/img
-    # - https://img.paulzzh.com/touhou/random
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -590,14 +577,6 @@ index_top_img_height:
 category_ui: # 留空或 index
 tag_ui: # 留空或 index
 
-# Website Background (設置網站背景)
-# can set it to color or image (可設置圖片 或者 顔色)
-# The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
-
-# Footer Background
-footer_bg: img/theme/footer.jpg
-
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
 
@@ -619,7 +598,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
@@ -866,8 +845,8 @@ mermaid:
   enable: false
   # built-in themes: default/forest/dark/neutral
   theme:
-    light: default
-    dark: dark
+    light: light
+    dark: default
 
 # Note (Bootstrap Callout)
 note:
@@ -961,6 +940,8 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/mouse.css">
+    - <link rel="stylesheet" href="/css/modify.css">
+    - <link rel="stylesheet" href="/css/card.css">
   bottom:
     # - <script src="xxxx"></script>
 
