@@ -643,7 +643,7 @@ ClickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
@@ -845,8 +845,8 @@ mermaid:
   enable: false
   # built-in themes: default/forest/dark/neutral
   theme:
-    light: light
-    dark: default
+    light: default
+    dark: dark
 
 # Note (Bootstrap Callout)
 note:
