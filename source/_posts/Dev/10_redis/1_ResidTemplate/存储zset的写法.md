@@ -1,17 +1,19 @@
 ---
-title: '存储zset的写法'
+title: 存储zset的写法
+
+categories:
+  - Dev
+  - redis
+  - ResidTemplate
+tags:
+  - Dev
+  - redis
+  - ResidTemplate
+  - 存储zset的写法
+abbrlink: 59400
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'redis'
-  - 'ResidTemplate'
-tags: 
-  - 'Dev'
-  - 'redis'
-  - 'ResidTemplate'
-  - '存储zset的写法'
 ---
+
 ```java
 ZSetOperations zSetOperations = redisTemplate.opsForZSet();
 Set<ZSetOperations.TypedTuple<Map<String, Double>>> tuples = new HashSet<>();

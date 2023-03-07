@@ -1,19 +1,21 @@
 ---
-title: 'table动态纵向合并单元格'
+title: table动态纵向合并单元格
+
+categories:
+  - Dev
+  - JavaScript
+  - layui
+tags:
+  - Dev
+  - JavaScript
+  - layui
+  - table动态纵向合并单元格
+abbrlink: 14114
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'JavaScript'
-  - 'layui'
-tags: 
-  - 'Dev'
-  - 'JavaScript'
-  - 'layui'
-  - 'table动态纵向合并单元格'
 ---
+
 ```js
-// 正常渲染表格 
+// 正常渲染表格
 table.render({
             elem: '#CxDataQdTjXXTab',
             height: 300,

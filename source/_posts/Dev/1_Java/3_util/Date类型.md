@@ -1,18 +1,21 @@
 ---
-title: 'Date类型'
+title: Date类型
+
+categories:
+  - Dev
+  - Java
+  - util
+tags:
+  - Dev
+  - Java
+  - util
+  - Date类型
+abbrlink: 39843
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'Java'
-  - 'util'
-tags: 
-  - 'Dev'
-  - 'Java'
-  - 'util'
-  - 'Date类型'
 ---
-##  两个日期之间相差的天数，日期为单位（比如相差两秒，可能就相差一天，12:23:59：59和13:01:00：00就相差一天）
+
+## 两个日期之间相差的天数，日期为单位（比如相差两秒，可能就相差一天，12:23:59：59 和 13:01:00：00 就相差一天）
+
 ```java
 /**
      * date2比date1多的天数
@@ -53,7 +56,8 @@ private static int differentDays(Date date1,Date date2) {
 }
 ```
 
-## 两个日期之间相差的天数，以毫秒数精确计算（比如相差22小时可能是同一天）
+## 两个日期之间相差的天数，以毫秒数精确计算（比如相差 22 小时可能是同一天）
+
 ```java
 /**
      * 通过秒毫秒数判断两个时间的间隔的天数
@@ -69,7 +73,9 @@ public static int differentDaysByMillisecond(Date date1,Date date2)
 ```
 
 ## 两个日期是否是同一天
+
 [判断同一天的博客](https://blog.csdn.net/w605283073/article/details/103335373)
+
 ```java
 public static boolean isSameDay(Date date1, Date date2) {
   LocalDate localDate1 = date1.toInstant()
@@ -84,10 +90,10 @@ public static boolean isSameDay(Date date1, Date date2) {
 ```
 
 另一种方式
+
 ```java
 public static boolean isSameDay(Date date1, Date date2) {
     SimpleDateFormat fmt = new SimpleDateFormat("yyyyMMdd");
     return fmt.format(date1).equals(fmt.format(date2));
 }
 ```
-

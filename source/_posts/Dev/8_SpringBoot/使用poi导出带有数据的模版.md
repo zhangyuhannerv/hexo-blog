@@ -1,15 +1,17 @@
 ---
-title: '使用poi导出带有数据的模版'
+title: 使用poi导出带有数据的模版
+
+categories:
+  - Dev
+  - SpringBoot
+tags:
+  - Dev
+  - SpringBoot
+  - 使用poi导出带有数据的模版
+abbrlink: 46835
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'SpringBoot'
-tags: 
-  - 'Dev'
-  - 'SpringBoot'
-  - '使用poi导出带有数据的模版'
 ---
+
 ```java
 @Override
 public void downloadLjcjImportTemplate(String xianbie, String xingbie, HttpServletResponse response) {

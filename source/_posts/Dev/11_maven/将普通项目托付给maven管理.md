@@ -1,16 +1,19 @@
 ---
-title: '将普通项目托付给maven管理'
+title: 将普通项目托付给maven管理
+
+categories:
+  - Dev
+  - maven
+tags:
+  - Dev
+  - maven
+  - 将普通项目托付给maven管理
+abbrlink: 21615
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'maven'
-tags: 
-  - 'Dev'
-  - 'maven'
-  - '将普通项目托付给maven管理'
 ---
-如需将一个java项目托付给maven管理。在项目的根目录下，建个pom.xml把以下内容复制进去。同时**右键把该项目标记为maven项目**(不同的idea版本该操作的名称可能不一样)
+
+如需将一个 java 项目托付给 maven 管理。在项目的根目录下，建个 pom.xml 把以下内容复制进去。同时**右键把该项目标记为 maven 项目**(不同的 idea 版本该操作的名称可能不一样)
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"

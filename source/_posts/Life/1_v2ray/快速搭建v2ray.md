@@ -1,26 +1,28 @@
 ---
-title: '快速搭建v2ray'
+title: 快速搭建v2ray
+
+categories:
+  - Life
+  - v2ray
+tags:
+  - Life
+  - v2ray
+  - 快速搭建v2ray
+abbrlink: 47358
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Life'
-  - 'v2ray'
-tags: 
-  - 'Life'
-  - 'v2ray'
-  - '快速搭建v2ray'
 ---
+
 ## v2ray 一键脚本安装
 
 从下面脚本选择一个能用的
 
-脚本1
+脚本 1
 
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/hijkpw/scripts/master/goV2.sh)
 ```
 
-脚本2
+脚本 2
 
 ```bash
 bash <(curl -s -L https://git.io/v2ray.sh)
@@ -43,7 +45,7 @@ systemctl start v2ray
 
 复制好你定义的 port 和 id，等会在客户端中使用。
 
-## 解决 v2ray invalid user: VMessAEAD可
+## 解决 v2ray invalid user: VMessAEAD 可
 
 修改文件：
 
@@ -59,7 +61,7 @@ ExecStart=/usr/bin/env v2ray.vmess.aead.forced=false /usr/bin/v2ray/v2ray -confi
 
 按下 `Esc` 然后输入 `:wq` 保存退出
 
-## 重启v2ray：
+## 重启 v2ray：
 
 ```
 systemctl daemon-reload
@@ -70,11 +72,11 @@ systemctl restart v2ray
 
 ## Windows 使用 v2ray
 
-搭建好了之后可以在你的系统使用了，到 [v2ray 客户端下载](https://github.com/v2ray/v2ray-core/releases) ，安装后填入你刚刚在服务器中得到的ip、uuid、port后开启运行即可。
+搭建好了之后可以在你的系统使用了，到 [v2ray 客户端下载](https://github.com/v2ray/v2ray-core/releases) ，安装后填入你刚刚在服务器中得到的 ip、uuid、port 后开启运行即可。
 
 ## macos 使用 v2ray
 
-下载[v2rayx](https://github.com/Cenmrev/V2RayX/releases), 接着打开菜单下的 Config， 将填入你刚刚在服务器中得到的ip、uuid、port填入后开启运行即可。
+下载[v2rayx](https://github.com/Cenmrev/V2RayX/releases), 接着打开菜单下的 Config， 将填入你刚刚在服务器中得到的 ip、uuid、port 填入后开启运行即可。
 
 ## Linux 用户
 
@@ -185,14 +187,14 @@ v2ray GitHub
 
 V2Ray 客户端使用教程:
 
-* https://233v2.com/post/4/
+- https://233v2.com/post/4/
 
 客户端突然无法访问了
 
-* 解决：https://github.com/v2ray/v2ray-core/issues/1871
+- 解决：https://github.com/v2ray/v2ray-core/issues/1871
   （更换端口）
 
-v2ray常用命令
+v2ray 常用命令
 
 `v2ray info` 查看 V2Ray 配置信息
 `v2ray config` 修改 V2Ray 配置
@@ -211,18 +213,18 @@ v2ray常用命令
 `v2ray update.sh` 更新 V2Ray 管理脚本
 `v2ray uninstall` 卸载 V2Ray
 
-# 我的v2ray
+# 我的 v2ray
 
 hostwinds
 
- 地址 (Address) = 104.168.141.120
+地址 (Address) = 104.168.141.120
 
- 端口 (Port) = 35711
+端口 (Port) = 35711
 
- 用户ID (User ID / UUID) = cc20d153-fd09-4a4f-9d57-c3fe312469d6
+用户 ID (User ID / UUID) = cc20d153-fd09-4a4f-9d57-c3fe312469d6
 
- 额外ID (Alter Id) = 0
+额外 ID (Alter Id) = 0
 
- 传输协议 (Network) = tcp
+传输协议 (Network) = tcp
 
- 伪装类型 (header type) = none
+伪装类型 (header type) = none

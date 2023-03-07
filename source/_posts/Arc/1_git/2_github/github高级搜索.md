@@ -1,20 +1,22 @@
 ---
-title: 'github高级搜索'
-date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Arc'
-  - 'git'
-  - 'github'
-tags: 
-  - 'Arc'
-  - 'git'
-  - 'github'
-  - 'github高级搜索'
----
-## github搜索自己想要的项目,并添加更加详细的描述
+title: github高级搜索
 
-github上搜索的例子
+categories:
+  - Arc
+  - git
+  - github
+tags:
+  - Arc
+  - git
+  - github
+  - github高级搜索
+abbrlink: 56030
+date: 2023-03-06 15:47:44
+---
+
+## github 搜索自己想要的项目,并添加更加详细的描述
+
+github 上搜索的例子
 
 `in:name springboot forks:>4000 language:java stars:>4000 pushed:>2020-01-01`
 

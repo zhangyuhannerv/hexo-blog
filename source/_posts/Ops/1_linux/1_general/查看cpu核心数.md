@@ -1,30 +1,32 @@
 ---
-title: '查看cpu核心数'
+title: 查看cpu核心数
+
+categories:
+  - Ops
+  - linux
+  - general
+tags:
+  - Ops
+  - linux
+  - general
+  - 查看cpu核心数
+abbrlink: 1698
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Ops'
-  - 'linux'
-  - 'general'
-tags: 
-  - 'Ops'
-  - 'linux'
-  - 'general'
-  - '查看cpu核心数'
 ---
-查看物理cpu数目
+
+查看物理 cpu 数目
 
 ```shell
 cat /proc/cpuinfo | grep "physical id" | sort | uniq | wc -l
 ```
 
-查看每个物理cpu里的核数
+查看每个物理 cpu 里的核数
 
 ```shell
 cat /proc/cpuinfo| grep "cpu cores"| uniq
 ```
 
-查看cpu逻辑核心数（cpu数量*每个cpu的核数）
+查看 cpu 逻辑核心数（cpu 数量\*每个 cpu 的核数）
 
 ```shell
 cat /proc/cpuinfo| grep "processor"| wc -l

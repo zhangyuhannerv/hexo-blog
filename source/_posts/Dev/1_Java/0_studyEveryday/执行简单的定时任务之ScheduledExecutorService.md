@@ -1,17 +1,19 @@
 ---
-title: '执行简单的定时任务之ScheduledExecutorService'
+title: 执行简单的定时任务之ScheduledExecutorService
+
+categories:
+  - Dev
+  - Java
+  - studyEveryday
+tags:
+  - Dev
+  - Java
+  - studyEveryday
+  - 执行简单的定时任务之ScheduledExecutorService
+abbrlink: 55320
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'Java'
-  - 'studyEveryday'
-tags: 
-  - 'Dev'
-  - 'Java'
-  - 'studyEveryday'
-  - '执行简单的定时任务之ScheduledExecutorService'
 ---
+
 `ScheduledExecutorService`有线程池的特性，也可以实现任务循环执行，可以看作是一个简单地定时任务组件，因为有线程池特性，所以任务之间可以多线程并发执行，互不影响，当任务来的时候，才会真正创建线程去执行  
 我们在做一些普通定时循环任务时可以用它，比如定时刷新字典常量，只需要不断重复执行即可，这篇文章讲解一下它的用法以及注意事项，不涉及底层原理
 
@@ -20,10 +22,10 @@ tags:
 ### 1. 延迟不循环任务`schedule`方法
 
 `schedule(Runnable command, long delay, TimeUnit unit)`  
-参数1：任务  
-参数2：方法第一次执行的延迟时间  
-参数3：延迟单位  
-说明：延迟任务，只执行一次(不会再次执行)，参数2为延迟时间
+参数 1：任务  
+参数 2：方法第一次执行的延迟时间  
+参数 3：延迟单位  
+说明：延迟任务，只执行一次(不会再次执行)，参数 2 为延迟时间
 
 **案例说明：**
 
@@ -52,17 +54,17 @@ public class MineExecutors {
 
 ```
 
-**可以看到任务执行时间为初始化完成后5s才开始执行，且只执行一次**  
+**可以看到任务执行时间为初始化完成后 5s 才开始执行，且只执行一次**  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/b712abc87287474b9d24d3639b05d161.png)
 
 ### 2. 延迟且循环`cheduleAtFixedRate`方法
 
 `cheduleAtFixedRate(Runnable command, long initialDelay, long period, TimeUnit unit)`  
-参数1：任务  
-参数2：初始化完成后延迟多长时间执行第一次任务  
-参数3：任务时间间隔  
-参数4：单位  
-方法解释：是以上一个任务开始的时间计时，比如`period`为5，那5秒后，检测上一个任务是否执行完毕，如果上一个任务执行完毕，则当前任务立即执行，如果上一个任务没有执行完毕，则需要等上一个任务执行完毕后立即执行，如果你的任务执行时间超过5秒，那么任务时间间隔参数将无效，任务会不停地循环执行，由此可得出该方法不能严格保证任务按一定时间间隔执行
+参数 1：任务  
+参数 2：初始化完成后延迟多长时间执行第一次任务  
+参数 3：任务时间间隔  
+参数 4：单位  
+方法解释：是以上一个任务开始的时间计时，比如`period`为 5，那 5 秒后，检测上一个任务是否执行完毕，如果上一个任务执行完毕，则当前任务立即执行，如果上一个任务没有执行完毕，则需要等上一个任务执行完毕后立即执行，如果你的任务执行时间超过 5 秒，那么任务时间间隔参数将无效，任务会不停地循环执行，由此可得出该方法不能严格保证任务按一定时间间隔执行
 
 **错误：任务连续执行案例：**
 
@@ -92,7 +94,7 @@ public class MineExecutors {
 }
 ```
 
-由上面代码可以看出，任务执行需要3秒，而我们设定的任务时间间隔为2秒，如此就会导致任务连续执行，该方法不能严格保证任务按照规定的时间间隔执行，如果你的任务执行时间可以保证忽略不计，则可以使用该方法，我们可以看到下面日志，上一个任务的执行结束时间与下一个任务的开始时间一致，所以任务连续循环执行了  
+由上面代码可以看出，任务执行需要 3 秒，而我们设定的任务时间间隔为 2 秒，如此就会导致任务连续执行，该方法不能严格保证任务按照规定的时间间隔执行，如果你的任务执行时间可以保证忽略不计，则可以使用该方法，我们可以看到下面日志，上一个任务的执行结束时间与下一个任务的开始时间一致，所以任务连续循环执行了  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/342f374f94ef437ebbdd0701a77ea511.png)  
 **正确案例：**
 
@@ -122,16 +124,16 @@ public class MineExecutors {
 }
 ```
 
-可以看到任务以上一次任务的开始时间，按3秒一次的方式执行  
+可以看到任务以上一次任务的开始时间，按 3 秒一次的方式执行  
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/1d9a4328e296470da79d9623009b1765.png)
 
 ### 3. 严格按照一定时间间隔执行``
 
 `scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit);`  
-参数1：任务  
-参数2：初始化完成后延迟多长时间执行第一次任务  
-参数3：任务执行时间间隔  
-参数4：单位  
+参数 1：任务  
+参数 2：初始化完成后延迟多长时间执行第一次任务  
+参数 3：任务执行时间间隔  
+参数 4：单位  
 解释：以上一次任务执行结束时间为准，加上任务时间间隔作为下一次任务开始时间，由此可以得出，任务可以严格按照时间间隔执行
 
 **案例：**

@@ -1,16 +1,19 @@
 ---
-title: '传入集合循环查询并用union组合'
+title: 传入集合循环查询并用union组合
+
+categories:
+  - Dev
+  - mybatis
+tags:
+  - Dev
+  - mybatis
+  - 传入集合循环查询并用union组合
+abbrlink: 25838
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'mybatis'
-tags: 
-  - 'Dev'
-  - 'mybatis'
-  - '传入集合循环查询并用union组合'
 ---
+
 实例：接口
+
 ```java
 /**
      * selectOverrunData:查询一个单次计划某个行别某个速度级下各个超限类型的占比
@@ -30,7 +33,9 @@ tags:
                                                            @Param("type") String type,
                                                            @Param("labelList") List<String> labelList);
 ```
-接口对应的sql
+
+接口对应的 sql
+
 ```xml
 <select id="selectStatisticalInformation" resultType="map">
         <foreach collection="labelList" item="item" index="index" separator="UNION">

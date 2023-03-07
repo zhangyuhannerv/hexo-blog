@@ -1,18 +1,20 @@
 ---
-title: '整合druid不支持批量更新的问题'
+title: 整合druid不支持批量更新的问题
+
+categories:
+  - Dev
+  - SpringBoot
+tags:
+  - Dev
+  - SpringBoot
+  - 整合druid不支持批量更新的问题
+abbrlink: 741
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'SpringBoot'
-tags: 
-  - 'Dev'
-  - 'SpringBoot'
-  - '整合druid不支持批量更新的问题'
 ---
+
 轻骑兵的解决方式
 
-注意url后面多了个allowMultiQueries=true
+注意 url 后面多了个 allowMultiQueries=true
 
 ```yml
 spring:
@@ -23,26 +25,28 @@ spring:
     password: 123456a?
     db-name: dtjc_sbgl_dev
     filters: log4j,mergeStat
-    driverClassName: com.mysql.cj.jdbc.Driver  
+    driverClassName: com.mysql.cj.jdbc.Driver
     #支持批量更新重点就是这里
     filter:
       wall:
         config:
           multi-statement-allow: true
-
 ```
-***
+
+---
+
 网上搜到的解决方式
 
-spring boot集成MyBatis，集成Druid批量更新报错，
+spring boot 集成 MyBatis，集成 Druid 批量更新报错，
 
-原因：Druid的防火墙配置(WallConfig)中变量multiStatementAllow默认为false 解决方案：
+原因：Druid 的防火墙配置(WallConfig)中变量 multiStatementAllow 默认为 false 解决方案：
 
-开启Druid的防火墙配置(WallConfig)中变量multiStatementAllow，把WallConfig中的multiStatementAllow设置为true即可
+开启 Druid 的防火墙配置(WallConfig)中变量 multiStatementAllow，把 WallConfig 中的 multiStatementAllow 设置为 true 即可
 
-集成Druid时关于DruidDataSource配置如下:
+集成 Druid 时关于 DruidDataSource 配置如下:
+
 ```java
-@Configuration 
+@Configuration
 public class DataSourcesConfig {
 	/**
 	 * druid初始化
@@ -54,19 +58,19 @@ public class DataSourcesConfig {
 	@Bean(name = "dataSource", destroyMethod = "close")
 	@ConfigurationProperties(prefix = "spring.datasource")
 	public DruidDataSource Construction() throws SQLException {
-	
+
 	DruidDataSource datasource = new DruidDataSource();
-	
+
 	// filter
 	    List`<Filter>` filters = new ArrayList `<Filter>`();
 	    WallFilter wallFilter = new WallFilter();
 	    filters.add(wallFilter);
 	    datasource.setProxyFilters(filters);
-	
+
 	return datasource;
-	
+
 	}
-	
+
 	@Bean(name = "wallFilter")
 	@DependsOn("wallConfig")
 	public WallFilter wallFilter(WallConfig wallConfig) {
@@ -74,7 +78,7 @@ public class DataSourcesConfig {
 	    wallFilter.setConfig(wallConfig);
 	    return wallFilter;
 	}
-	
+
 	@Bean(name = "wallConfig")
 	public WallConfig wallConfig() {
 	    WallConfig wallConfig = new WallConfig();
@@ -85,11 +89,13 @@ public class DataSourcesConfig {
 }
 ```
 
-之后数据库连接后面需要加上allowMultiQueries=true,上面解决的是Druid的拦截， 而在数据库上的配置解决的是数据库服务层面的拦截。 url: jdbc:mysql://192.168.1.9:3306/p?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true 到此结束。
-***
+之后数据库连接后面需要加上 allowMultiQueries=true,上面解决的是 Druid 的拦截， 而在数据库上的配置解决的是数据库服务层面的拦截。 url: jdbc:mysql://192.168.1.9:3306/p?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true 到此结束。
+
+---
+
 另外：
 
-spring boot开发环境下启动无异常，批量更新也成功了，但是在tomcat下运行启动会报错
+spring boot 开发环境下启动无异常，批量更新也成功了，但是在 tomcat 下运行启动会报错
 异常提示如下：Unable to register WallConfig with key wallConfig; nested exception is InstanceAlreadyExistsException:com.alibaba.druid.wall:name=wallConfig,type=WallConfig
 
-解决办法：在SpringBoot项目中配置文件加上spring.jmx.enabled=false
+解决办法：在 SpringBoot 项目中配置文件加上 spring.jmx.enabled=false

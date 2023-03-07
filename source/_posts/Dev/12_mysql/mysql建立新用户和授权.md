@@ -1,16 +1,19 @@
 ---
-title: 'mysql建立新用户和授权'
+title: mysql建立新用户和授权
+
+categories:
+  - Dev
+  - mysql
+tags:
+  - Dev
+  - mysql
+  - mysql建立新用户和授权
+abbrlink: 42280
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'mysql'
-tags: 
-  - 'Dev'
-  - 'mysql'
-  - 'mysql建立新用户和授权'
 ---
+
 # 需求：只允许某个用户访问某个库
+
 ```sql
 # 建立用户user能在任何ip登录，并且密码是passwd
 create user 'user'@'%' identified by 'passwd';

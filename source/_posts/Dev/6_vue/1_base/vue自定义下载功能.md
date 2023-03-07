@@ -1,28 +1,31 @@
 ---
-title: 'vue自定义下载功能'
+title: vue自定义下载功能
+
+categories:
+  - Dev
+  - vue
+  - base
+tags:
+  - Dev
+  - vue
+  - base
+  - vue自定义下载功能
+abbrlink: 15793
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'vue'
-  - 'base'
-tags: 
-  - 'Dev'
-  - 'vue'
-  - 'base'
-  - 'vue自定义下载功能'
 ---
+
 #### 返回整体文件流，通过浏览器转成二进制触发下载
 
 该方式和传统的方式不同。
 
-传统是读取服务器返回的流，这里是服务器流都已经整体返回了，然后才通过js转成文件触发下载
+传统是读取服务器返回的流，这里是服务器流都已经整体返回了，然后才通过 js 转成文件触发下载
 
-该方式只适合下载小文件（一般是小于10M），如果文件过大，会导致浏览器占用内存过大，页面崩溃
+该方式只适合下载小文件（一般是小于 10M），如果文件过大，会导致浏览器占用内存过大，页面崩溃
 
-以下载excel为例子
+以下载 excel 为例子
 
 前台代码
+
 ```js
 /**
  * 下载数据导入模板
@@ -31,8 +34,8 @@ export function downloadImportTemplate(url, fileName) {
   return request({
     type: 'get',
     url,
-    responseType: 'blob',
-  }).then(res => {
+    responseType: 'blob'
+  }).then((res) => {
     const url = window.URL.createObjectURL(new Blob([res]))
     const link = document.createElement('a')
     link.style.display = 'none'
@@ -43,11 +46,10 @@ export function downloadImportTemplate(url, fileName) {
   })
 }
 
-
 // 其他地方只需引入该方法，调用传入参数即可
 downloadImportTemplate('/downloadTemplate', '工程车辆导入模板')
-
 ```
+
 ```java
 @RequestMapping("/downloadTemplate")
 public void downLoadEngineeringVehiclesImportTemplateFile(HttpServletResponse response) {

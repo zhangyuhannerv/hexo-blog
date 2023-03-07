@@ -1,14 +1,15 @@
 ---
-title: 'mysql在导入.sql文件的时候报错  1067 - Invalid default value for LOCK_TIME'
-date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
+title: mysql在导入.sql文件的时候报错  1067 - Invalid default value for LOCK_TIME
+
 categories:
-  - 'Dev'
-  - 'mysql'
+  - Dev
+  - mysql
 tags:
-  - 'Dev'
-  - 'mysql'
-  - 'TIME_‘'
+  - Dev
+  - mysql
+  - TIME_‘
+abbrlink: 60814
+date: 2023-03-06 15:47:44
 ---
 
 推荐使用以下的方式永久修改

@@ -1,20 +1,23 @@
 ---
-title: '开启gzip配置'
+title: 开启gzip配置
+
+categories:
+  - Ops
+  - nginx
+tags:
+  - Ops
+  - nginx
+  - 开启gzip配置
+abbrlink: 2714
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Ops'
-  - 'nginx'
-tags: 
-  - 'Ops'
-  - 'nginx'
-  - '开启gzip配置'
 ---
+
 配置示例
+
 ```conf
 server{
         listen 9005; ## nginx监听端口号
-        
+
         #开启gzip
         gzip  on;
         #vary header支持，该选项可以让前端的缓存服务器缓存经过gzip压缩的页面

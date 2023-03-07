@@ -1,18 +1,20 @@
 ---
-title: 'rabbitmq-server管理'
+title: rabbitmq-server管理
+
+categories:
+  - Ops
+  - linux
+  - ubuntu
+tags:
+  - Ops
+  - linux
+  - ubuntu
+  - rabbitmq-server管理
+abbrlink: 58254
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Ops'
-  - 'linux'
-  - 'ubuntu'
-tags: 
-  - 'Ops'
-  - 'linux'
-  - 'ubuntu'
-  - 'rabbitmq-server管理'
 ---
-前提：通信端口默认是5672端口，如果远程连接，别忘记先在防火墙上开启该端口
+
+前提：通信端口默认是 5672 端口，如果远程连接，别忘记先在防火墙上开启该端口
 
 查看运行状态
 
@@ -26,11 +28,11 @@ tags:
 
 `service rabbitmq-server start`
 
-重启rabbitmq服务
+重启 rabbitmq 服务
 
 `service rabbitmq-server restart`
 
-查看log文件
+查看 log 文件
 
 `cd /var/log/rabbitmq/`
 
@@ -41,12 +43,12 @@ tags:
 `rabbitmq-plugins list`
 
 安装插件
-(这里以安装web管理客户端为例子，该客户端的端口是15672.别忘记在防火墙开启端口)
+(这里以安装 web 管理客户端为例子，该客户端的端口是 15672.别忘记在防火墙开启端口)
 `rabbitmq-plugins enable rabbitmq_management`
 
 编写配置文件（这里以开放外部访问为例子）
 `cd /etc/rabbitmq/ `
 `vim rabbitmq.config`
 
-向rabbitmq.config文件中写入如下内容：
+向 rabbitmq.config 文件中写入如下内容：
 \[{rabbit, \[{loopback_users, []}\]}\].

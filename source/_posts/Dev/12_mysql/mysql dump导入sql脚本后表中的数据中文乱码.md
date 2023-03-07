@@ -1,14 +1,16 @@
 ---
-title: 'mysql dump导入sql脚本后表中的数据中文乱码'
+title: mysql dump导入sql脚本后表中的数据中文乱码
+
+categories:
+  - Dev
+  - mysql
+tags:
+  - Dev
+  - mysql
+  - mysql dump导入sql脚本后表中的数据中文乱码
+abbrlink: 18721
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'mysql'
-tags: 
-  - 'Dev'
-  - 'mysql'
-  - 'mysql dump导入sql脚本后表中的数据中文乱码'
 ---
+
 解决办法：
-加上--default-character-set=utf8参数即可
+加上--default-character-set=utf8 参数即可

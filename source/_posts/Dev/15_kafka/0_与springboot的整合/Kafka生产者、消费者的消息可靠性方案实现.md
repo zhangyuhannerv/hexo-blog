@@ -1,22 +1,24 @@
 ---
-title: 'Kafka生产者、消费者的消息可靠性方案实现'
+title: Kafka生产者、消费者的消息可靠性方案实现
+
+categories:
+  - Dev
+  - kafka
+  - 与springboot的整合
+tags:
+  - Dev
+  - kafka
+  - 与springboot的整合
+  - Kafka生产者、消费者的消息可靠性方案实现
+abbrlink: 60348
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'kafka'
-  - '与springboot的整合'
-tags: 
-  - 'Dev'
-  - 'kafka'
-  - '与springboot的整合'
-  - 'Kafka生产者、消费者的消息可靠性方案实现'
 ---
-以下代码基于SpringKafka 2.3.13.RELEASE + Boot 2.2.9.RELEASE 实现
+
+以下代码基于 SpringKafka 2.3.13.RELEASE + Boot 2.2.9.RELEASE 实现
 
 # Producer 消息的可靠性
 
-实现方案：ack模式调整 + 重试机制 + 规避重试机制下带来的问题
+实现方案：ack 模式调整 + 重试机制 + 规避重试机制下带来的问题
 
 ```yml
 spring.kafka:
@@ -87,7 +89,7 @@ public class ProducerFuture implements FailureCallback, SuccessCallback<SendResu
 ## 启用重试机制后带来的问题
 
 1.  重试过程中，**一条消息只会向同一个分区进行重试发送**，所以在重试的机制下，也能保证消息的全局幂等性
-2.  由于重试，可能导致消息在 Node 中的顺序和 Producer 发送时的顺序不一致。可以对max.in.flight.requests.per.connectio（限制每个连接（指客户端与 Node 之间的 per.connection 连接）最多缓存 **已发送但未收到响应的请求数**，默认为5）设置为1，即可保证在重试机制下的消息顺序。
+2.  由于重试，可能导致消息在 Node 中的顺序和 Producer 发送时的顺序不一致。可以对 max.in.flight.requests.per.connectio（限制每个连接（指客户端与 Node 之间的 per.connection 连接）最多缓存  **已发送但未收到响应的请求数**，默认为 5）设置为 1，即可保证在重试机制下的消息顺序。
 
 # Consumer 消息的可靠性
 
@@ -98,7 +100,7 @@ public class ProducerFuture implements FailureCallback, SuccessCallback<SendResu
 ```yml
 #kafka配置，更多配置请参考：KafkaProperties
 spring.kafka:
-#消费者的配置，可参考：org.apache.kafka.clients.consumer.ConsumerConfig
+  #消费者的配置，可参考：org.apache.kafka.clients.consumer.ConsumerConfig
   consumer:
     #暂不用提供clientId，2.x版本可放出来，1.x有多个topic且concurrency>1会出现JMX注册时异常
     #clientId: ${spring.application.name} #方便kafkaserver打印日志定位请求来源

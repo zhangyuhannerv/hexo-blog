@@ -1,18 +1,20 @@
 ---
-title: 'unzip解压'
+title: unzip解压
+
+categories:
+  - Dev
+  - Java
+  - util
+tags:
+  - Dev
+  - Java
+  - util
+  - unzip解压
+abbrlink: 9281
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'Java'
-  - 'util'
-tags: 
-  - 'Dev'
-  - 'Java'
-  - 'util'
-  - 'unzip解压'
 ---
-## 无论压缩文件下有多少层级，所有解压后的文件都统一放在outFileDir文件夹下，且只保留压缩的文件，压缩的文件夹不保留
+
+## 无论压缩文件下有多少层级，所有解压后的文件都统一放在 outFileDir 文件夹下，且只保留压缩的文件，压缩的文件夹不保留
 
 ```java
 import java.io.*;

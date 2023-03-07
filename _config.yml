@@ -14,7 +14,10 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://zhangyuhan.netlify.app/
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html  # 此处可以自己设置，也可以直接使用 /:abbrlink.html
+abbrlink:
+    alg: crc16   #算法：crc16(default) and crc32
+    rep: dec     #进制：dec(default) and hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -99,6 +102,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 theme: butterfly # 指定主题
+
+search:
+  path: search.xml
+  field: post
+  content: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

@@ -1,18 +1,21 @@
 ---
-title: 'lambda用法整理'
+title: lambda用法整理
+
+categories:
+  - Dev
+  - Java
+  - lambda
+tags:
+  - Dev
+  - Java
+  - lambda
+  - lambda用法整理
+abbrlink: 53080
 date: 2023-03-06 15:47:44
-copyright_info: The copyright of this article is owned by Zhang Yuhan, and it follows the CC BY-NC-SA 4.0 agreement. For reprinting, please attach the original source link and this statement
-categories: 
-  - 'Dev'
-  - 'Java'
-  - 'lambda'
-tags: 
-  - 'Dev'
-  - 'Java'
-  - 'lambda'
-  - 'lambda用法整理'
 ---
-## 使用lambda表达式建立子线程任务并阻塞主线程
+
+## 使用 lambda 表达式建立子线程任务并阻塞主线程
+
 ```java
 // 阻塞主线程的计数器
         CountDownLatch countDownLanch = new CountDownLatch(cycleNum);
