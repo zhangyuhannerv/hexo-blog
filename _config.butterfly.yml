@@ -339,12 +339,12 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
-  use: # Valine,Disqus
+  use: Valine #Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: false # Display comment count in post's top_img
+  count: true # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
 # disqus
@@ -379,13 +379,17 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  appId: 7FjONeAiuCyR1n67UpwIzC18-9Nh9j0Va
+  appKey: NhLohA2xYQyLoPIyuGePPvVp
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://7fjoneai.lc-cn-e1-shared.com
   bg: # valine background
-  visitor: false
+  visitor: true
   option:
+    #评论区显示的文字
+    placeholder: 留下你的足迹o(*￣▽￣*)ブ
+    #每一页最大的评论数量
+    pageSize: 15
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
@@ -956,7 +960,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/mouse.css">
   bottom:
     # - <script src="xxxx"></script>
 
