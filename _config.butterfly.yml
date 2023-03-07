@@ -14,8 +14,8 @@ menu:
   # About: /about/ || fas fa-heart
 
 nav:
-  logo:
-  display_title: true
+  logo: /img/theme/logo.png
+  display_title: false
   fixed: false # fixed navigation bar
 
 # Code Blocks (代碼相關)
@@ -90,7 +90,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: /img/theme/favicon.png
 
 # Avatar (頭像)
 avatar:
