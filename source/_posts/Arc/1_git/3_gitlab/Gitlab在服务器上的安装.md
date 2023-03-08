@@ -21,8 +21,6 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 
 **本文档适用于 linux 的发行版为 centos7。其他的发行版 ubuntu、debian 等请自行百度**
 
-**本文档所有的图片的图床为 github。在无法连接 github 的情况下。图片将无法加载。但不影响正常的安装和部署**
-
 **整理 by:张雨晗** **2020.7.20**
 
 **[参考博客 1](https://www.cnblogs.com/you-men/p/13126530.html)**
@@ -47,7 +45,7 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 
 ctrl+鼠标左键点击打开链接，下载最新的 rpm 包
 
-![图片加载失败。请确认你能访问github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210719165359.png)
+![20210719165359.png](https://s2.loli.net/2023/03/08/VtZw3IuTHEmWsvo.png)
 
 ## 2.上传 rpm 文件。注意：linux 的运营规范里明确规定了第三方软件包放在/opt/文件夹下
 
@@ -154,7 +152,7 @@ cd /opt/gitlab/bin
 gitlab-rails console
 ```
 
-![图片加载失败。请确认你能连接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210719172042.png)
+![20210719172042.png](https://s2.loli.net/2023/03/08/AmOIEMzrns5VSlw.png)
 
 出现上述结果证明进入控制台成功
 
@@ -204,15 +202,15 @@ u.save!
 
 点击左上角的 menu，在展开的下拉菜单中点击 admin。进入到管理者面板
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720090423.png)
+![20210720090423.png](https://s2.loli.net/2023/03/08/bOSLQx3fgVMdBN4.png)
 
 点击 user 区域的 view lastest users 能够进入到用户管理区
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720090624.png)
+![20210720090624.png](https://s2.loli.net/2023/03/08/WALUzO2h4r9QJ1m.png)
 
 点击 newUser 能够添加用户。可能新增的用户。无法直接为其设置密码。此时可以先设置姓名，用户名，邮箱等。保存并退出后再点击 edit 按钮即可手动指定新建用户的默认密码。
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720090646.png)
+![20210720090646.png](https://s2.loli.net/2023/03/08/ujcYwyVi1I4SagO.png)
 
 注意：
 
@@ -234,11 +232,11 @@ u.save!
 
 鼠标悬浮于右上角的 project information，点击弹出的菜单里的 members 选项即可邀请成员
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720092603.png)
+![20210720092603.png](https://s2.loli.net/2023/03/08/qTQ7JxXdcphstuE.png)
 
 在 max role 列可以修改用户的角色。因为 Maintainer 相当于该项目的 root。所以建议一个项目最多两到三个 Maintainer 角色。
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720093040.png)
+![20210720093040.png](https://s2.loli.net/2023/03/08/DdNIXuqZi9Wvkm8.png)
 
 ## 4.特别注意：取消 main branch protect
 
@@ -248,7 +246,7 @@ gitlab 默认对 main 分支提供保护。只有 Maintainer 才能对 main 分�
 
 点击 settings 里的 Repositoy
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720094409.png)
+![20210720094409.png](https://s2.loli.net/2023/03/08/zAYEjVi8cpSfJL2.png)
 
 点击 protected branches 右侧的 expand 可以在展开的下拉框里看到一条默认的 main 分支保护规则。
 
@@ -256,7 +254,7 @@ gitlab 默认对 main 分支提供保护。只有 Maintainer 才能对 main 分�
 
 建议在 Allowed to merge 和 Allowed to push 里添加 developer 角色。
 
-![图片加载失败，请确认你能链接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210720094552.png)
+![20210720094552.png](https://s2.loli.net/2023/03/08/UPHlhpZBoGV4JOg.png)
 
 ---
 

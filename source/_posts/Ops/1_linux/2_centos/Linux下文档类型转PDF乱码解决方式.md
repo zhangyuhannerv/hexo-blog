@@ -16,7 +16,7 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 ---
 
 在 Linux 系统下进行文本类型转 PDF 时出现乱码。
-![问题示意图](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210708223956.png)
+![20210708223956.png](https://s2.loli.net/2023/03/08/HpV2Lmv5bAFQgPD.png)
 
 解决方案：
 

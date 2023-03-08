@@ -26,4 +26,4 @@ try (InputStream is = classPathResource.getInputStream()) {// 读取resources下
 }
 ```
 
-![图片加载失败，请确认您能连接到github](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/202110111450956.png)
+![202110111450956.png](https://s2.loli.net/2023/03/08/qkzm7cD9hfsMKwE.png)

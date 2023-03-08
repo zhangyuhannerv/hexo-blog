@@ -14,13 +14,14 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 ---
 
 如题，编译和打包都是正常的，pom 文件中依赖存在并且没有报错。找到相应包的引用位置，也能正常访问包中的内容。而且提示的一般都是基础的 jar 包找不到，比如单元测试用到的 jar 包等。。。
+![20210713083617.png](https://s2.loli.net/2023/03/08/Q8sCPEGZT572edH.png)
 
 情形一：
 
 其他同事提交代码时把 idea 中的 .iml 文件也一起提交了，该文件中配置的 jdk lib 路径与自己电脑中的该路径不一致。
 
 解决方法很简单，执行一下 maven update 即可，也可以手动修改 .iml 文件中的该路径。
-![](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210713083737.png)
+![20210713083737.png](https://s2.loli.net/2023/03/08/qEjldxz42UmXg7B.png)
 
 情形二：
 
@@ -38,7 +39,7 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 2.  点击 Libraries 找到提示不存在的 jar 包（这里以 junit 为例），选中，然后右键打开菜单，选择 Convert to Repository Library…
 3.  执行 maven update
 
-    ![如图](https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/20210713084001.png)
+    ![20210713084001.png](https://s2.loli.net/2023/03/08/QJuskcn2Cm9phUV.png)
 
     一般到此都能解决问题，如果还是解决不了，可能真的是人品问题，那就只能呵呵了。。
 
