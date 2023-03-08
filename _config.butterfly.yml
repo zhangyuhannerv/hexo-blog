@@ -379,6 +379,7 @@ valine:
       Ps: Users in mainland China may need to surf the Internet scientifically to successfully load and submit comments
     #每一页最大的评论数量
     pageSize: 15
+    lang: en
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
