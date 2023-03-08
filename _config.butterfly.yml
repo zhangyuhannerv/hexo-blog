@@ -327,7 +327,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/Artalk
   use: Valine #Disqus
-  text: true # Display the comment name next to the button
+  text: false # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
@@ -366,15 +366,17 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: 7FjONeAiuCyR1n67UpwIzC18-9Nh9j0Va
-  appKey: NhLohA2xYQyLoPIyuGePPvVp
+  appId: JkudL31UMA3LTrugX1MyaDSI-MdYXbMMI
+  appKey: G7H3CF0evPfzlwg7MCAK3ZJY
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: https://7fjoneai.lc-cn-e1-shared.com
+  serverURLs: https://jkudl31u.api.lncldglobal.com
   bg: # valine background
   visitor: true
   option:
     #评论区显示的文字
-    placeholder: 留下你的足迹o(*￣▽￣*)ブ
+    placeholder: |
+      leave your comment (*￣▽￣*)ブ
+      Ps: Users in mainland China may need to surf the Internet scientifically to successfully load and submit comments
     #每一页最大的评论数量
     pageSize: 15
 
