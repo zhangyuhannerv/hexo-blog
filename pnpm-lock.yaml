@@ -5,8 +5,10 @@ specifiers:
   hexo: ^6.3.0
   hexo-abbrlink: ^2.2.1
   hexo-deployer-git: ^4.0.0
+  hexo-filter-nofollow: ^2.0.2
   hexo-generator-archive: ^2.0.0
   hexo-generator-category: ^2.0.0
+  hexo-generator-feed: ^3.0.0
   hexo-generator-index: ^3.0.0
   hexo-generator-search: ^2.4.3
   hexo-generator-sitemap: ^3.0.1
@@ -24,8 +26,10 @@ dependencies:
   hexo: 6.3.0
   hexo-abbrlink: 2.2.1
   hexo-deployer-git: 4.0.0
+  hexo-filter-nofollow: 2.0.2
   hexo-generator-archive: 2.0.0
   hexo-generator-category: 2.0.0
+  hexo-generator-feed: 3.0.0
   hexo-generator-index: 3.0.0
   hexo-generator-search: 2.4.3
   hexo-generator-sitemap: 3.0.1
@@ -790,6 +794,11 @@ packages:
       - chokidar
     dev: false
 
+  /hexo-filter-nofollow/2.0.2:
+    resolution: {integrity: sha512-roIkEIkGOR22EPMoy8iKrufDoAH25LOT5ZeVXVLavEpM757Y96kfUhyathryMLXr326EURffgkZAKsVf3EDl0A==}
+    engines: {node: '>= 8.6.0'}
+    dev: false
+
   /hexo-front-matter/1.0.0:
     resolution: {integrity: sha512-Hn8IIzgWWnxYTekrjnA0rxwWMoQHifyrxKMqVibmFaRKf4AQ2V6Xo13Jiso6CDwYfS+OdA41QS5DG1Y+QXA5gw==}
     engines: {node: '>=8.6.0'}
@@ -836,6 +845,16 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       hexo-pagination: 3.0.0
+    dev: false
+
+  /hexo-generator-feed/3.0.0:
+    resolution: {integrity: sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ==}
+    engines: {node: '>=10.13.0'}
+    dependencies:
+      hexo-util: 2.7.0
+      nunjucks: 3.2.3
+    transitivePeerDependencies:
+      - chokidar
     dev: false
 
   /hexo-generator-index/3.0.0:
