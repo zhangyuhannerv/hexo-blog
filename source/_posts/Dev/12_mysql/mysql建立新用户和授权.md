@@ -10,6 +10,7 @@ tags:
   - mysql建立新用户和授权
 abbrlink: 42280
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=7b34549429cd4a1fb4ed3d046161b5fe
 ---
 
 # 需求：只允许某个用户访问某个库

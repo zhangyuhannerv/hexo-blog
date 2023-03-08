@@ -10,6 +10,7 @@ tags:
   - any 和 all 关键字
 abbrlink: 52297
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=6aff715ddbdd4ef8a184f9fa90e70db5
 ---
 
 ```sql

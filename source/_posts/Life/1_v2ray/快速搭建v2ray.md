@@ -10,6 +10,7 @@ tags:
   - 快速搭建v2ray
 abbrlink: 47358
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=b63b06a2097c4242b75927288dc13c4b
 ---
 
 ## v2ray 一键脚本安装

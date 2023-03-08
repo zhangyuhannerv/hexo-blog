@@ -10,6 +10,7 @@ tags:
   - mysql建表的几个必备字段
 abbrlink: 62575
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=fceed27e639b41f7bf584b480d94b20d
 ---
 
 - id(主键)

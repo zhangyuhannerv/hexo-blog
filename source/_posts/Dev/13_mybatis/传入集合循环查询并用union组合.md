@@ -10,6 +10,7 @@ tags:
   - 传入集合循环查询并用union组合
 abbrlink: 25838
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=756ae487d24f4425bca3c79de2357fb3
 ---
 
 实例：接口

@@ -12,6 +12,7 @@ tags:
   - vue自定义下载功能
 abbrlink: 15793
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=9ea4cef360c640528c2fd857cf7c93ec
 ---
 
 #### 返回整体文件流，通过浏览器转成二进制触发下载

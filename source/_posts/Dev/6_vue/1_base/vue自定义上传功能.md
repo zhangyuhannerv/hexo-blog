@@ -12,6 +12,7 @@ tags:
   - vue自定义上传功能
 abbrlink: 13753
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=e2d2a1153fe2417fb52bd30ddf7e7a95
 ---
 
 ```js

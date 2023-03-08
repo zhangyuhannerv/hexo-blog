@@ -12,6 +12,7 @@ tags:
   - 设置静态ip
 abbrlink: 47994
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=6ebefc0a3f41402c87b81c20e42af553
 ---
 
 ## ubuntu_server18

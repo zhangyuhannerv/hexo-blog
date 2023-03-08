@@ -12,6 +12,7 @@ tags:
   - 执行简单的定时任务之ScheduledExecutorService
 abbrlink: 55320
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=3fd5174d197441bc82cb37cbd99b5691
 ---
 
 `ScheduledExecutorService`有线程池的特性，也可以实现任务循环执行，可以看作是一个简单地定时任务组件，因为有线程池特性，所以任务之间可以多线程并发执行，互不影响，当任务来的时候，才会真正创建线程去执行  

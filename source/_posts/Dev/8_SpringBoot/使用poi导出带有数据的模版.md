@@ -10,6 +10,7 @@ tags:
   - 使用poi导出带有数据的模版
 abbrlink: 46835
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=f6e31ee6c15440fdbc33a2e1b041c952
 ---
 
 ```java

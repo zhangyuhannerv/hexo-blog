@@ -12,6 +12,7 @@ tags:
   - 切换为root账号
 abbrlink: 3339
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=23fe43c8790849f4a44e136e683f424c
 ---
 
 - Ubuntu 的默认 root 密码是随机的，即每次开机都有一个新的 root 密码。可以在终端输入命令 sudo passwd，然后输入当前用户的密码，回车.

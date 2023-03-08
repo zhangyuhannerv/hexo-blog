@@ -145,46 +145,8 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img0.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img1.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img2.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img3.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img4.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img5.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img6.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img7.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img8.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img9.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img10.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img11.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img12.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img13.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img14.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img15.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img16.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img17.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img18.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img19.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img20.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img21.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img22.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img23.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img24.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img25.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img26.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img27.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img28.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img29.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img30.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img31.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img32.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img33.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img34.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img35.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img36.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img37.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img38.jpg
-    - https://raw.githubusercontent.com/zhangyuhannerv/picture-host-1/main/page_img39.jpg
+    # 备用的随机动漫图片api
+    # - https://tuapi.eees.cc/api.php?type=302&category={dongman}
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:

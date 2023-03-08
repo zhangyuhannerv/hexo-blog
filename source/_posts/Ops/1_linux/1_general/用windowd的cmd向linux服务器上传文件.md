@@ -12,6 +12,7 @@ tags:
   - 用windowd的cmd向linux服务器上传文件
 abbrlink: 31381
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=11b7e47df4284123b70e2d6c5ff33302
 ---
 
 示例代码

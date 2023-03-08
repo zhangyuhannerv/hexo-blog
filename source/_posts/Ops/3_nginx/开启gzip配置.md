@@ -10,6 +10,7 @@ tags:
   - 开启gzip配置
 abbrlink: 2714
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=552fa8acdafc43158bb606e1d7125727
 ---
 
 配置示例

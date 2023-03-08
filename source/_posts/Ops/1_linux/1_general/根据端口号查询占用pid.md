@@ -12,6 +12,7 @@ tags:
   - 根据端口号查询占用pid
 abbrlink: 50070
 date: 2023-03-06 15:47:44
+cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=24b98dc46e43420889dd5eda2bdfa0f7
 ---
 
 ```shell
