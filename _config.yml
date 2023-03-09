@@ -134,3 +134,15 @@ deploy:
   type: git
   repo: git@github.com:zhangyuhannerv/zhangyuhannerv.github.io.git
   branch: main
+
+live2d:
+	enable: true
+	scriptFrom: local
+	model: 
+		use: live2d-widget-model-miku #模型选择
+	display: 
+		position: left  #模型位置
+		width: 150       #模型宽度
+		height: 300      #模型高度
+	mobile: 
+		show: false      #是否在手机端显示
