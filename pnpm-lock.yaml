@@ -4,6 +4,8 @@ specifiers:
   cheerio: 1.0.0-rc.12
   hexo: ^6.3.0
   hexo-abbrlink: ^2.2.1
+  hexo-butterfly-article-double-row: ^1.0.2
+  hexo-butterfly-clock-anzhiyu: ^1.1.8
   hexo-deployer-git: ^4.0.0
   hexo-filter-nofollow: ^2.0.2
   hexo-generator-archive: ^2.0.0
@@ -27,6 +29,8 @@ dependencies:
   cheerio: 1.0.0-rc.12
   hexo: 6.3.0
   hexo-abbrlink: 2.2.1
+  hexo-butterfly-article-double-row: 1.0.2
+  hexo-butterfly-clock-anzhiyu: 1.1.8
   hexo-deployer-git: 4.0.0
   hexo-filter-nofollow: 2.0.2
   hexo-generator-archive: 2.0.0
@@ -1455,7 +1459,7 @@ packages:
     optional: true
 
   /function-bind/1.1.1:
-    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npm.taobao.org/function-bind/-/function-bind-1.1.1.tgz}
+    resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
     dev: false
 
   /genfun/5.0.0:
@@ -1653,6 +1657,16 @@ packages:
       moment: 2.29.4
       mv: 2.1.1
       safe-json-stringify: 1.2.0
+    dev: false
+
+  /hexo-butterfly-article-double-row/1.0.2:
+    resolution: {integrity: sha512-rKFj4uUrjerTzmZvagTI2orsoxmmMj9Runfdht/4SxKY7ARfpYBd6CAmc14Pi9IE1T+5n6VKMA+WW4g86ZZeFA==}
+    dev: false
+
+  /hexo-butterfly-clock-anzhiyu/1.1.8:
+    resolution: {integrity: sha512-fk9b7sv2qwKYc4aoxnQWW1gdpI4gbebNJFhFLfBxMShd+onq9MZw0Dhcn3nDiALbnu2GoHRHPk5PIJlaB2n3Qg==}
+    dependencies:
+      pug: 3.0.2
     dev: false
 
   /hexo-cli/4.3.0:

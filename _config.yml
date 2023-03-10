@@ -146,3 +146,7 @@ live2d:
 		height: 300      #模型高度
 	mobile: 
 		show: false      #是否在手机端显示
+    
+# 双栏布局
+butterfly_article_double_row:
+  enable: true
