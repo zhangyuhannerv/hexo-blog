@@ -907,8 +907,10 @@ inject:
     - <link rel="stylesheet" href="/css/mouse.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/card.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
-    # - <script src="xxxx"></script>
+    - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+    - <script type="text/javascript" src="/js/rightmenu.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
