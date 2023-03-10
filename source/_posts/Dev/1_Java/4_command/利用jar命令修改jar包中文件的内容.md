@@ -11,7 +11,7 @@ tags:
   - Java command
   - 利用jar命令修改jar包中文件的内容
 abbrlink: 33806
-date: 2024-01-10 18:08:00
+date: 2023-03-10 18:08:00
 ---
 
 ## 查找需要修改jar包中的application.yml文件路径
