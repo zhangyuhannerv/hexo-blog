@@ -8,7 +8,7 @@ categories:
 tags:
   - Dev
   - Java
-  - command
+  - Java command
   - 后台运行jar包与停止运行
 abbrlink: 5084
 date: 2023-03-06 15:47:44
