@@ -157,7 +157,7 @@ error_img:
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: /img/theme/404.jpg
 
 post_meta:
   page: # Home Page
@@ -622,8 +622,8 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
-  code-font-family:
+  font-family: lxgw-wenkai,"Microsoft JhengHei","Microsoft YaHei",sans-serif
+  code-font-family: CascadiaCode,"Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -736,8 +736,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2/1/2023 00:00:00
 
 # Aside widget - Newest Comments
 newest_comments:
@@ -904,8 +904,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/css/font.css">
+    - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/universe.css">
-    - <link rel="stylesheet" href="/css/modify.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/mouse.css">
     - <link rel="stylesheet" href="/css/card.css">
     - <link rel="stylesheet" href="/css/custom.css">
