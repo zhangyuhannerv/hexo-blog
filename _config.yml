@@ -131,11 +131,12 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: 
-    github: git@github.com:zhangyuhannerv/zhangyuhannerv.github.io.git
-    gitee: git@gitee.com:zhangyuhannerv/zhangyuhannerv.git
-  branch: main
+  - type: git
+    branch: main
+    repo: git@github.com:zhangyuhannerv/zhangyuhannerv.github.io.git
+  - type: git
+    branch: main
+    repo: git@gitee.com:zhangyuhannerv/zhangyuhannerv.git
 
 live2d:
 	enable: true
