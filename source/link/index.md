@@ -22,4 +22,8 @@ type: 'link'
     link: https://www.fomal.cc/
     avatar: https://lskypro.acozycotage.net/LightPicture/2022/12/60e5d4e39da7c077.webp
     descr: 针对 Hexo 和 Butterfly 的优化与魔改
+  - name: 吴增港的博客
+    link: https://plantre.github.io/blog/
+    avatar: /img/theme/avatar.gif
+    descr: 技术大神
 {% endflink %}
