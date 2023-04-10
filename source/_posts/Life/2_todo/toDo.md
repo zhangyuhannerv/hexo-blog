@@ -20,6 +20,7 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 - [ ] 整理 RestTemplate 的 Api
 - [x] 整理 FastJSON 的常用 api
 - [ ] 申请美版 paypal
+- [ ] 申请双标信用卡
 
 ## 20230105
 
@@ -49,10 +50,18 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 
 ### 20230406
 
-- [ ] 删除前先查询等于fileid的数量，查到数量再删除
-- [ ] 线程池初始化50，最大200
-- [ ] 所有的异步在finally里count down
-- [ ] 删除的条件构造器单独构造
-- [ ] 手动矫正完成改为计算tqi
-- [ ] 手动矫正删除无tqi的提示信息
-- [ ] 手动矫正问题库操作改为异步 
+- [x] 删除前先查询等于fileid的数量，查到数量再删除
+- [x] 线程池初始化50，最大200
+- [x] 所有的异步在finally里count down
+- [x] 删除的条件构造器单独构造
+- [x] 手动矫正完成改为计算tqi
+- [x] 手动矫正删除无tqi的提示信息
+- [x] 手动矫正问题库操作改为异步
+
+### 20230411
+
+- [ ] 数据库最大连接量设为1000(永久改，改配置文件)
+- [ ] 所有表改为innodb引擎
+- [ ] 动态几何5张表添加fileid索引，修改代码道岔矫正，手动矫正，检测记录对于数据的增删改使用索引
+- [ ] dtjc_sj_odometer分区（琢磨）
+- [ ] 三角坑矫正添加进度条
