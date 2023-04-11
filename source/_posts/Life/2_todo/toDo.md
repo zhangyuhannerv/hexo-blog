@@ -61,8 +61,8 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 
 ### 20230411
 
-- [ ] 数据库最大连接量设为1000(永久改，改配置文件)
-- [ ] 所有表改为innodb引擎
-- [ ] 动态几何5张表添加fileid索引，修改代码道岔矫正，手动矫正，检测记录对于数据的增删改使用索引
-- [ ] dtjc_sj_odometer分区（琢磨）
-- [ ] 三角坑矫正添加进度条
+- [x] 数据库最大连接量设为1000，把`max_connections=1000`加入到my.cnf里后重启mysql服务(注意：现在只是临时改`set GLOBAL max_connections=1000`，下次服务器重启记的改为永久的)
+- [x] 所有表改为innodb引擎
+- [x] 动态几何5张表添加fileid索引，修改代码道岔矫正，手动矫正，检测记录对于数据的增删改使用索引
+- [x] dtjc_sj_odometer分区（琢磨）
+- [x] 三角坑矫正添加进度条
