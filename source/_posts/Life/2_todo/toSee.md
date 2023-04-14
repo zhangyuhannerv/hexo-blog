@@ -24,10 +24,17 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 - [x] 孤独摇滚
 - [x] 电锯人
 - [x] 赛博朋克：边缘行者
+- [x] 想要成为影之实力者
+- [x] angel beats
+- [x] 零之使魔（1，2，3，4）
+- [x] 迷茫管家与懦弱的我
 - [ ] 夏日重现
 - [ ] 来自深渊
 - [ ] 致不灭的你
 - [ ] 邪神与厨二病少女
+- [ ] 地狱乐
+- [ ] 天国大魔境
+- [ ] 在无神的世界进行信仰传播
 
 ## 电影
 
@@ -63,4 +70,4 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 - [x] ff7re: first capture
 - [x] 卧龙：苍天陨落
 - [x] 泰坦陨落2
-- [ ] 原子之心
+- [x] 原子之心
