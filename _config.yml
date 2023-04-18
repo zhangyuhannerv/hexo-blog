@@ -139,7 +139,7 @@ deploy:
     repo: git@gitee.com:zhangyuhannerv/zhangyuhannerv.git
 
 live2d:
-	enable: true
+	enable: false
 	scriptFrom: local
 	model: 
 		use: live2d-widget-model-miku #模型选择
