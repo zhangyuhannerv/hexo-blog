@@ -35,6 +35,8 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 - [ ] 地狱乐
 - [ ] 天国大魔境
 - [ ] 在无神的世界进行信仰传播
+- [ ] 我推的孩子
+- [ ] 别当欧尼酱啦
 
 ## 电影
 
@@ -63,6 +65,7 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 
 ## 游戏
 
+- [x] 双人成行
 - [x] 火焰纹章：风花雪月
 - [x] 塞尔达传说：荒野之息
 - [x] 异度神剑2
@@ -71,3 +74,5 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 - [x] 卧龙：苍天陨落
 - [x] 泰坦陨落2
 - [x] 原子之心
+- [ ] 怪物猎人：崛起
+- [ ] 怪物猎人：世界
