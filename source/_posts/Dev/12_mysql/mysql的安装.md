@@ -1,16 +1,16 @@
 ---
-title: 安装
-
+title: mysql的安装
 categories:
   - Dev
   - mysql
 tags:
   - Dev
   - mysql
-  - 安装
-abbrlink: 55020
+  - mysql的安装
+cover: >-
+  https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=43688
+abbrlink: 43688
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=a6659cf151554c74af802b541859bf26
 ---
 
 ## mysql8
@@ -21,11 +21,21 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
    rpm -qa | grep -i mysql
    ```
 
+   使用rpm -e命令将上个命令中包列表全部删除
+
+   然后删除相关服务
+
+   ```shell
+    chkconfig --list | grep -i mysql
+    chkconfig --del mysql
+   ```
+
 2. 删除 mysql
 
    ```shell
    yum -y remove MySQL-*
    yum -y remove MySQL
+   yum remove mysql mysql-server mysql-libs compat-mysql51
    ```
 
    一般用 rpm -e 的命令删除 mysql,这样表面上删除了 mysql,可是 mysql 的一些残余程序仍然存在,并且通过第一步的方式也查找不到残余,而 yum 命令比较强大,可以完全删除 mysql.(ps:用 rpm 删除后再次安装的时候会提示已经安装了,这就是 rpm 没删除干净的原因)
@@ -42,6 +52,7 @@ cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=
 
    ```shell
    rm -rf /etc/my.cnf
+   rm -rf /var/lib/mysql
    ```
 
 5. 删除 mysql 的默认密码
@@ -235,3 +246,65 @@ ALTER USER ‘root’@’%’ IDENTIFIED WITH mysql_native_password BY ‘123456
 加密方式以及改成了 mysql_native_password
 
 ---
+
+## mysql5.7
+
+1. 下载并安装mysql的repo源，例如：
+    ```shell
+    wget http://repo.mysql.com/mysql57-community-release-el7-10.noarch.rpm
+
+    yum -y install mysql57-community-release-el7-10.noarch.rpm
+    ```
+    如果没有安装wget需要安装一下
+    ```shell
+    yum -y install wget】
+    ```
+2. 安装
+    ```shell
+    yum -y install mysql-community-server
+    ```
+    安装mysql-community-server时提示公钥尚未安装
+
+    方法一，运行这个命令：
+    ```shell
+    rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+    ```
+
+    方法二，修改文件：`/etc/yum.repos.d/mysql-community.repo`，修改对应安装版本的gpgcheck=0即可
+3. 启动服务
+
+    启动mysql服务：`systemctl start mysqld.service`
+
+    查看是否启动mysql服务：`systemctl status mysqld.service`
+
+4. 修改密码
+    查看mysql初始密码：
+    ```sql
+    grep "password" /var/log/mysqld.log
+    ```
+    进入mysql：
+    ```sql
+    mysql -u root -p
+    ```
+    修改密码：
+    ```sql
+    alter user user() identified by "你的密码" # user()为当前登录人，所以该命令是修改当前登录人的密码，也可以把user()替换为某个具体的用户名
+    ```
+    如果提示密码强度过低
+    ```sql
+    set global validate_password_policy=0;  # 密码强度设为最低等级
+
+    set global validate_password_length=4;  # 密码允许最小长度为4，也可以是1
+
+    flush privileges;  # 更新授权表，生效
+    ```
+5. 配置远程访问权限
+
+    ```shell
+    GRANT ALL PRIVILEGES ON *.* TO 'yourusername'@'%' IDENTIFIED BY 'yourpassword' WITH GRANT OPTION;
+
+    FLUSH PRIVILEGES;
+    ```
+    如果提示密码强度过低，执行上面的修改密码强度策略的命令
+
+
