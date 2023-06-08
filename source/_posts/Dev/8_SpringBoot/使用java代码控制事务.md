@@ -10,7 +10,7 @@ tags:
   - 使用java代码控制事务
 abbrlink: 46891
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=26efb986ff28499facef387b4cced2ce
+cover: https://sex.nyan.xyz/api/v2/img?uuid=26efb986ff28499facef387b4cced2ce
 ---
 
 1.  代码中控制事务的三种方式

@@ -12,7 +12,7 @@ tags:
   - github高级搜索
 abbrlink: 56030
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=e538130a50384ac7b840afa66ab14440
+cover: https://sex.nyan.xyz/api/v2/img?uuid=e538130a50384ac7b840afa66ab14440
 ---
 
 ## github 搜索自己想要的项目,并添加更加详细的描述

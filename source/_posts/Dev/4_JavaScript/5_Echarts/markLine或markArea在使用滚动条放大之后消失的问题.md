@@ -12,7 +12,7 @@ tags:
   - markLine或markArea在使用滚动条放大之后消失的问题
 abbrlink: 37931
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=677bfa68c8964617af0eeff4596cd54f
+cover: https://sex.nyan.xyz/api/v2/img?uuid=677bfa68c8964617af0eeff4596cd54f
 ---
 
 - 问题：水平的 markLine 或者 markArea 当使用 dataZoom 放大的时候。只要 markLine/markArea 不完全在当前缩放的范围内（有部分在）那么它们就会整体消失

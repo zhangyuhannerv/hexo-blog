@@ -12,7 +12,7 @@ tags:
   - rabbitmq-server管理
 abbrlink: 58254
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=0cf5f1a5d71b4433ac49cca43aa7a9a8
+cover: https://sex.nyan.xyz/api/v2/img?uuid=0cf5f1a5d71b4433ac49cca43aa7a9a8
 ---
 
 前提：通信端口默认是 5672 端口，如果远程连接，别忘记先在防火墙上开启该端口

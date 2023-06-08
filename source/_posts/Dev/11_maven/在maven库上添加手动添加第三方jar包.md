@@ -10,7 +10,7 @@ tags:
   - 在maven库上添加手动添加第三方jar包
 abbrlink: 61509
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=72d6f84bc25b4599a346b54ce2f3dffb
+cover: https://sex.nyan.xyz/api/v2/img?uuid=72d6f84bc25b4599a346b54ce2f3dffb
 ---
 
 进入到放这个 jar 包的文件夹，运行 cmd

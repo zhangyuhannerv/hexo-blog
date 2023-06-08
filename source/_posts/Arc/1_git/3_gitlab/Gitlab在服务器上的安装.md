@@ -12,7 +12,7 @@ tags:
   - Gitlab在服务器上的安装
 abbrlink: 14935
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=c7a5edaad2be4d6aa30e0d871fa96f44
+cover: https://sex.nyan.xyz/api/v2/img?uuid=c7a5edaad2be4d6aa30e0d871fa96f44
 ---
 
 # 阅前注意

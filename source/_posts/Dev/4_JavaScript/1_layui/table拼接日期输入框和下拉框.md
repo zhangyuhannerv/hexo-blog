@@ -12,7 +12,7 @@ tags:
   - table拼接日期输入框和下拉框
 abbrlink: 11106
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=25b5b2cf038148d2a8311b9eab9b9b6b
+cover: https://sex.nyan.xyz/api/v2/img?uuid=25b5b2cf038148d2a8311b9eab9b9b6b
 ---
 
 代码如下

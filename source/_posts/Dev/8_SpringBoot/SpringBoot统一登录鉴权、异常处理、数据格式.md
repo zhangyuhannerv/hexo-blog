@@ -8,7 +8,7 @@ tags:
   - SpringBoot
   - SpringBoot统一登录鉴权、异常处理、数据格式
 abbrlink: 39078
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=39078
+cover: https://sex.nyan.xyz/api/v2/img?uuid=39078
 date: 2023-04-14 15:47:44
 ---
 

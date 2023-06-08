@@ -7,7 +7,7 @@ tags:
   - Dev
   - OAuth2.0
   - OAuth 2.0 第三方登录
-cover: 'https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=14380'
+cover: 'https://sex.nyan.xyz/api/v2/img?uuid=14380'
 abbrlink: 14380
 date: 2023-05-09 09:04:44
 ---

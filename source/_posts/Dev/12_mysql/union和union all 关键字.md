@@ -10,7 +10,7 @@ tags:
   - union和union all 关键字
 abbrlink: 32462
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=cfcd3dbc4ee7436ca0803998ff4faf56
+cover: https://sex.nyan.xyz/api/v2/img?uuid=cfcd3dbc4ee7436ca0803998ff4faf56
 ---
 
 - 区别 1：取结果的交集

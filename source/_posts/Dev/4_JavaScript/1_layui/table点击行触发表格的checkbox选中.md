@@ -12,7 +12,7 @@ tags:
   - table点击行触发表格的checkbox选中
 abbrlink: 38275
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=8209d36d9b6b485c8e1f922bde6fe1b4
+cover: https://sex.nyan.xyz/api/v2/img?uuid=8209d36d9b6b485c8e1f922bde6fe1b4
 ---
 
 ```js

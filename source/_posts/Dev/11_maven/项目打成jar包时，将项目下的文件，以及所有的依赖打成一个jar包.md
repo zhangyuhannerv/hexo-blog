@@ -10,7 +10,7 @@ tags:
   - 项目打成jar包时，将项目下的文件，以及所有的依赖打成一个jar包
 abbrlink: 22750
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=0c585427c8a74b6db88242f818a7b749
+cover: https://sex.nyan.xyz/api/v2/img?uuid=0c585427c8a74b6db88242f818a7b749
 ---
 
 例子：在做一个单机的用 maven 管理的 swing 项目时，引入了 poi，但是打成的 jar 包里没有 poi 的依赖，导致用 exe4j 转换出的 exe 程序报错（Caused by: java.lang.NoClassDefFoundError）

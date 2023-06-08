@@ -8,7 +8,7 @@ tags:
   - mysql
   - mysql的安装
 cover: >-
-  https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=43688
+  https://sex.nyan.xyz/api/v2/img?uuid=43688
 abbrlink: 43688
 date: 2023-03-06 15:47:44
 ---

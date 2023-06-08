@@ -10,7 +10,7 @@ tags:
   - 使用QueryWrapper关于时间日期比较的问题
 abbrlink: 63472
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=e2412f1976ab4b748b3a0c72be3f6858
+cover: https://sex.nyan.xyz/api/v2/img?uuid=e2412f1976ab4b748b3a0c72be3f6858
 ---
 
 首先明确。springmvc 默认不支持将前台传过来的日期/日期时间字符串在到达 controller 层之前直接转成 Date/LocalDate/LocalDateTime 类型的，所以接收还是要用字符串类型接收

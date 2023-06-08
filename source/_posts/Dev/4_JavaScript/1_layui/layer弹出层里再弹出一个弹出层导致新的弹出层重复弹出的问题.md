@@ -12,7 +12,7 @@ tags:
   - layer弹出层里再弹出一个弹出层导致新的弹出层重复弹出的问题
 abbrlink: 16214
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=e8ba084f604447559313de6193caaaa1
+cover: https://sex.nyan.xyz/api/v2/img?uuid=e8ba084f604447559313de6193caaaa1
 ---
 
 解决办法:在 layui 的 layer 配置 json 里给每个弹出层指定个不同的 id 即可

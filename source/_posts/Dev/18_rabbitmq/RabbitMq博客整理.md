@@ -7,7 +7,7 @@ tags:
   - Dev
   - RabbitMq
   - RabbitMq博客整理
-cover: 'https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=8942'
+cover: 'https://sex.nyan.xyz/api/v2/img?uuid=8942'
 abbrlink: 8942
 date: 2023-03-21 11:04:44
 ---

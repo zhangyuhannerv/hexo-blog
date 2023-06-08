@@ -12,7 +12,7 @@ tags:
   - ajax前后台参数传递
 abbrlink: 64611
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=266498f3515f4ea2abbfd761702ef2eb
+cover: https://sex.nyan.xyz/api/v2/img?uuid=266498f3515f4ea2abbfd761702ef2eb
 ---
 
 ## contentType 的类型

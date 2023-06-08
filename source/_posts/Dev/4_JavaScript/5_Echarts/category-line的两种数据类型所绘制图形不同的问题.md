@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - Echarts
   - category-line的两种数据类型所绘制图形不同的问题
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=2224
+cover: https://sex.nyan.xyz/api/v2/img?uuid=2224
 abbrlink: 2224
 date: 2023-04-18 10:14:34
 ---

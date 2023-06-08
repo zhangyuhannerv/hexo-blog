@@ -12,7 +12,7 @@ tags:
   - 安装nginx
 abbrlink: 31907
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=6c6714492bba4c649f3cb17d5462f7ac
+cover: https://sex.nyan.xyz/api/v2/img?uuid=6c6714492bba4c649f3cb17d5462f7ac
 ---
 
 ```shell

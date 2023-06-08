@@ -12,7 +12,7 @@ tags:
   - 常用api总结
 abbrlink: 50126
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=7dedacfc9aea4ca3b2e98c6648c2d3a6
+cover: https://sex.nyan.xyz/api/v2/img?uuid=7dedacfc9aea4ca3b2e98c6648c2d3a6
 ---
 
 XXXTemplate 是 Spring 的一大设计特色，其中，RedisTemplate 功能是提供对 Redis 的支持。

@@ -12,7 +12,7 @@ tags:
   - word转pdf
 abbrlink: 27144
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=b9bbd2d40e634e43987d918d31a9f728
+cover: https://sex.nyan.xyz/api/v2/img?uuid=b9bbd2d40e634e43987d918d31a9f728
 ---
 
 1.  poi(慢，格式回出问题)

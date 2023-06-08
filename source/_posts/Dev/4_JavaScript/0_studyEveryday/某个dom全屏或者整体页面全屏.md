@@ -12,7 +12,7 @@ tags:
   - 某个dom全屏或者整体页面全屏
 abbrlink: 54254
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=f9082d7a2d4c4bd4a338031ae82ae709
+cover: https://sex.nyan.xyz/api/v2/img?uuid=f9082d7a2d4c4bd4a338031ae82ae709
 ---
 
 ```js

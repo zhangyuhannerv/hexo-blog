@@ -10,7 +10,7 @@ tags:
   - 整合druid不支持批量更新的问题
 abbrlink: 741
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=0a38a8c9aff443a8afb08c7d64d58b16
+cover: https://sex.nyan.xyz/api/v2/img?uuid=0a38a8c9aff443a8afb08c7d64d58b16
 ---
 
 轻骑兵的解决方式

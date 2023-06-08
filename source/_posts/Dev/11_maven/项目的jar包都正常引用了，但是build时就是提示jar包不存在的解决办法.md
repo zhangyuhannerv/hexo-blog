@@ -10,7 +10,7 @@ tags:
   - 项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法
 abbrlink: 52198
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=a06744e5719a4e3c8bd30bf22c45ae71
+cover: https://sex.nyan.xyz/api/v2/img?uuid=a06744e5719a4e3c8bd30bf22c45ae71
 ---
 
 如题，编译和打包都是正常的，pom 文件中依赖存在并且没有报错。找到相应包的引用位置，也能正常访问包中的内容。而且提示的一般都是基础的 jar 包找不到，比如单元测试用到的 jar 包等。。。

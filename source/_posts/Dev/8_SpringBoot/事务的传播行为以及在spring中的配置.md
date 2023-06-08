@@ -10,7 +10,7 @@ tags:
   - 事务的传播行为以及在spring中的配置
 abbrlink: 32036
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=013f8b25753b40249538a7c56c2460fc
+cover: https://sex.nyan.xyz/api/v2/img?uuid=013f8b25753b40249538a7c56c2460fc
 ---
 
 一、什么是事务传播行为？

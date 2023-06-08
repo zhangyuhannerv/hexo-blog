@@ -10,7 +10,7 @@ tags:
   - TIME_‘
 abbrlink: 60814
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=cc8b286347a94c4eb7c993ba447473bf
+cover: https://sex.nyan.xyz/api/v2/img?uuid=cc8b286347a94c4eb7c993ba447473bf
 ---
 
 推荐使用以下的方式永久修改

@@ -12,7 +12,7 @@ tags:
   - table动态纵向合并单元格
 abbrlink: 14114
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=8484e35cd7ef48938a8a41981f959181
+cover: https://sex.nyan.xyz/api/v2/img?uuid=8484e35cd7ef48938a8a41981f959181
 ---
 
 ```js

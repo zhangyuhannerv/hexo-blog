@@ -10,7 +10,7 @@ tags:
   - show profile功能
 abbrlink: 51045
 date: 2023-03-06 15:47:44
-cover: https://service-5z0sdahv-1306777571.sh.apigw.tencentcs.com/release/?uuid=44aaa1ec8c9446d2b62e932b706c0407
+cover: https://sex.nyan.xyz/api/v2/img?uuid=44aaa1ec8c9446d2b62e932b706c0407
 ---
 
 - 开启 Show Profile 功能，默认该功能是关闭的，使用前需开启。
