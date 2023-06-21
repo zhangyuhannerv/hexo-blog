@@ -12,7 +12,7 @@ abbrlink: 50567
 date: 2023-03-06 15:47:44
 cover: https://sex.nyan.xyz/api/v2/img?uuid=24be6bc87e5a4ebc9c3a2fa8f43e4ebc
 ---
-
+## 方式1
 ```java
 @Component
 public class DtjcProjectGeneralReportUtil {
@@ -40,6 +40,20 @@ public class DtjcProjectGeneralReportUtil {
             }
         }
         return TestTaskId;
+    }
+}
+```
+
+## 方式2（未经测试）
+
+```java
+@Component
+public class Book {
+    private static User user;
+
+    @Autowired
+    public void setUser(User user){
+        Book.user = user
     }
 }
 ```
