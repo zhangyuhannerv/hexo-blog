@@ -12,7 +12,7 @@ tags:
   - table单元格编辑使用键盘跳转
 abbrlink: 17520
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=bdacf74e7d5c463c8ef3b22c73dc2a2d
+cover: https://imgapi.xl0408.top?uuid=bdacf74e7d5c463c8ef3b22c73dc2a2d
 ---
 
 可以单独把下面的代码写个 js，然后在需要的页面上引入该 js

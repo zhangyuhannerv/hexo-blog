@@ -12,7 +12,7 @@ tags:
   - lambda用法整理
 abbrlink: 53080
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=46650d2a015d4e6784eb31fe6a033bec
+cover: https://imgapi.xl0408.top?uuid=46650d2a015d4e6784eb31fe6a033bec
 ---
 
 ## 使用 lambda 表达式建立子线程任务并阻塞主线程

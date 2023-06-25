@@ -10,7 +10,7 @@ tags:
   - and() 和 or()的嵌套使用
 abbrlink: 4758
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=90293d85776d40d3b0646e1f0084d1be
+cover: https://imgapi.xl0408.top?uuid=90293d85776d40d3b0646e1f0084d1be
 ---
 
 and 里面嵌套 or 如下使用

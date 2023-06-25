@@ -7,7 +7,7 @@ tags:
   - Dev
   - SpringBoot
   - Springboot调用外部http接口的三种方式
-cover: 'https://sex.nyan.xyz/api/v2/img?uuid=55495'
+cover: 'https://imgapi.xl0408.top?uuid=55495'
 abbrlink: 55495
 date: 2023-05-30 11:05:30
 ---

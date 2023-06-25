@@ -1,6 +1,6 @@
 ---
 title: 利用jar命令修改jar包中文件的内容
-cover: 'https://sex.nyan.xyz/api/v2/img?uuid=33806'
+cover: 'https://imgapi.xl0408.top?uuid=33806'
 categories:
   - Dev
   - Java

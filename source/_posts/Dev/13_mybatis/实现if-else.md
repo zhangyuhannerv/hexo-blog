@@ -10,7 +10,7 @@ tags:
   - 实现if-else
 abbrlink: 51749
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=36620418cb0f4028a289244690404f9b
+cover: https://imgapi.xl0408.top?uuid=36620418cb0f4028a289244690404f9b
 ---
 
 ```xml

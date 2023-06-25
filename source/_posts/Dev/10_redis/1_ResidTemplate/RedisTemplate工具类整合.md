@@ -9,7 +9,7 @@ tags:
   - redis
   - ResidTemplate
   - RedisTemplate工具类整合
-cover: 'https://sex.nyan.xyz/api/v2/img?uuid=57079'
+cover: 'https://imgapi.xl0408.top?uuid=57079'
 abbrlink: 57079
 date: 2023-05-31 10:09:14
 ---

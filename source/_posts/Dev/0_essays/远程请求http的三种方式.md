@@ -10,7 +10,7 @@ tags:
   - 远程请求http的三种方式
 abbrlink: 17762
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=b3c1244a397b4acab1235553081a7434
+cover: https://imgapi.xl0408.top?uuid=b3c1244a397b4acab1235553081a7434
 ---
 
 1.ajax 远程调用，远程服务器必须开放跨域访问权限

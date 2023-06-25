@@ -7,7 +7,7 @@ tags:
   - Dev
   - RabbitMq
   - RabbitMq和SpringBoot的整合
-cover: 'https://sex.nyan.xyz/api/v2/img?uuid=41445'
+cover: 'https://imgapi.xl0408.top?uuid=41445'
 abbrlink: 41445
 date: 2023-03-16 17:36:44
 ---

@@ -12,7 +12,7 @@ tags:
   - 局部导入css
 abbrlink: 48248
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=cd5b8679e2d54c46a57c480e48b893c6
+cover: https://imgapi.xl0408.top?uuid=cd5b8679e2d54c46a57c480e48b893c6
 ---
 
 ```vue

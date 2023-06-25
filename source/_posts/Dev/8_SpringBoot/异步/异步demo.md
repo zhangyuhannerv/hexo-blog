@@ -12,7 +12,7 @@ tags:
   - 异步demo
 abbrlink: 49484
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=1fb92db5524e4baaabea85422984140b
+cover: https://imgapi.xl0408.top?uuid=1fb92db5524e4baaabea85422984140b
 ---
 
 ## 序言

@@ -10,7 +10,7 @@ tags:
   - 自适应宽度的input框
 abbrlink: 45263
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=5a3c3b8244bc4076b75918be3df62dd9
+cover: https://imgapi.xl0408.top?uuid=5a3c3b8244bc4076b75918be3df62dd9
 ---
 
 解决办法 1：div 的 contenteditable="true"属性。能实现一行编辑。

@@ -12,7 +12,7 @@ tags:
   - 存储zset的写法
 abbrlink: 59400
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=270d12a8481d45b392b98c893bad9434
+cover: https://imgapi.xl0408.top?uuid=270d12a8481d45b392b98c893bad9434
 ---
 
 ```java

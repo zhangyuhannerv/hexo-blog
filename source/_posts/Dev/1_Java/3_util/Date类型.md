@@ -12,7 +12,7 @@ tags:
   - Date类型
 abbrlink: 39843
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=b65544afc3a94630954c4a1720516919
+cover: https://imgapi.xl0408.top?uuid=b65544afc3a94630954c4a1720516919
 ---
 
 ## 两个日期之间相差的天数，日期为单位（比如相差两秒，可能就相差一天，12:23:59：59 和 13:01:00：00 就相差一天）

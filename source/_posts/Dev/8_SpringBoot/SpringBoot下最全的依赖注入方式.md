@@ -7,7 +7,7 @@ tags:
   - Dev
   - SpringBoot
   - SpringBoot下最全的依赖注入方式
-cover: 'https://sex.nyan.xyz/api/v2/img?uuid=1170'
+cover: 'https://imgapi.xl0408.top?uuid=1170'
 abbrlink: 1170
 date: 2023-06-21 14:06:44
 ---

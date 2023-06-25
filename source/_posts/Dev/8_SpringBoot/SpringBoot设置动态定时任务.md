@@ -7,7 +7,7 @@ tags:
   - Dev
   - SpringBoot
   - SpringBoot设置动态定时任务
-cover: 'https://sex.nyan.xyz/api/v2/img?uuid=21268'
+cover: 'https://imgapi.xl0408.top?uuid=21268'
 abbrlink: 21268
 date: 2023-04-18 11:05:30
 ---

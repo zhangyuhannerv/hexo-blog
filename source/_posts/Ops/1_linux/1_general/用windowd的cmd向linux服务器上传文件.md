@@ -12,7 +12,7 @@ tags:
   - 用windowd的cmd向linux服务器上传文件
 abbrlink: 31381
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=11b7e47df4284123b70e2d6c5ff33302
+cover: https://imgapi.xl0408.top?uuid=11b7e47df4284123b70e2d6c5ff33302
 ---
 
 示例代码

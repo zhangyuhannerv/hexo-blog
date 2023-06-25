@@ -12,7 +12,7 @@ tags:
   - 关于消费的同步异步问题，以及多个方法监听同一个topic
 abbrlink: 38173
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=948d973e5c9143faa786555a7f1f67d6
+cover: https://imgapi.xl0408.top?uuid=948d973e5c9143faa786555a7f1f67d6
 ---
 
 ```java

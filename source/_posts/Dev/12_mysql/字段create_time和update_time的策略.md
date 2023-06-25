@@ -10,7 +10,7 @@ tags:
   - time和update_time的策略
 abbrlink: 17208
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=4bb226aff9f643ec84144b1344ed7d02
+cover: https://imgapi.xl0408.top?uuid=4bb226aff9f643ec84144b1344ed7d02
 ---
 
 二者默认值都设置为 CURRENT_TIMESTAMP(DEFAULT CURRENT_TIMESTAMP)，保证插入时记录时间

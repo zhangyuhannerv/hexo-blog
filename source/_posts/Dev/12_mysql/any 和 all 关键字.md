@@ -10,7 +10,7 @@ tags:
   - any 和 all 关键字
 abbrlink: 52297
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=6aff715ddbdd4ef8a184f9fa90e70db5
+cover: https://imgapi.xl0408.top?uuid=6aff715ddbdd4ef8a184f9fa90e70db5
 ---
 
 ```sql

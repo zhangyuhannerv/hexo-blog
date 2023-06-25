@@ -12,7 +12,7 @@ tags:
   - SpringBoot中使用Quartz执行任务对象（job）中无法注入bean的问题
 abbrlink: 17422
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=1076cecda60942baabc8b57288f2a453
+cover: https://imgapi.xl0408.top?uuid=1076cecda60942baabc8b57288f2a453
 ---
 
 **一、问题描述**  

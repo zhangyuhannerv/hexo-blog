@@ -12,7 +12,7 @@ tags:
   - 利用jQuery实现让容器的滚动条滚动到某个内部元素的位置。让内部元素本来在中间，一下子跑到最上面
 abbrlink: 3285
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=9c865152e01c4c118f18026ec66ac1cc
+cover: https://imgapi.xl0408.top?uuid=9c865152e01c4c118f18026ec66ac1cc
 ---
 
 ```html

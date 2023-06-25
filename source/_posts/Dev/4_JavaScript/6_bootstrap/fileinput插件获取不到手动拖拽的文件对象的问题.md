@@ -12,7 +12,7 @@ tags:
   - fileinput插件获取不到手动拖拽的文件对象的问题
 abbrlink: 39443
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=f84c299eeac74931a374b9c4ec039b5b
+cover: https://imgapi.xl0408.top?uuid=f84c299eeac74931a374b9c4ec039b5b
 ---
 
 ```js

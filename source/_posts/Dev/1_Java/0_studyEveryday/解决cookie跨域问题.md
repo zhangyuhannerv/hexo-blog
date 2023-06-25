@@ -12,7 +12,7 @@ tags:
   - 解决cookie跨域问题
 abbrlink: 40883
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=c0591d7f6f3b49ef8db2c9f42ba4d3a9
+cover: https://imgapi.xl0408.top?uuid=c0591d7f6f3b49ef8db2c9f42ba4d3a9
 ---
 
 业务需求：当前网站想要访问第三方网站的页面，第三方网站的页面接口都需要使用 cookie 认证授权

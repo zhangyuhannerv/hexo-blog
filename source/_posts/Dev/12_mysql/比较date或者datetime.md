@@ -10,7 +10,7 @@ tags:
   - 比较date或者datetime
 abbrlink: 44371
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=7f32f5b6f1264843a34b1ffe1c10ba5a
+cover: https://imgapi.xl0408.top?uuid=7f32f5b6f1264843a34b1ffe1c10ba5a
 ---
 
 单个的比较可以直接使用> < 或者= 来比较，但是当两个值的组合与另两个值的组合进行比较的时候，可以使用**UNIX_TIMESTAMP()**函数

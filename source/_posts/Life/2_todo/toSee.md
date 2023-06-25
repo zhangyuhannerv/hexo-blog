@@ -10,7 +10,7 @@ tags:
   - toSee
 abbrlink: 30134
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=74656c4a31ed4418a1a09a8a92c1d2a7
+cover: https://imgapi.xl0408.top?uuid=74656c4a31ed4418a1a09a8a92c1d2a7
 ---
 
 ## 动漫

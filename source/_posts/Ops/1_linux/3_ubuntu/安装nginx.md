@@ -12,7 +12,7 @@ tags:
   - 安装nginx
 abbrlink: 31907
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=6c6714492bba4c649f3cb17d5462f7ac
+cover: https://imgapi.xl0408.top?uuid=6c6714492bba4c649f3cb17d5462f7ac
 ---
 
 ```shell

@@ -12,7 +12,7 @@ tags:
   - vue自定义上传功能
 abbrlink: 13753
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=e2d2a1153fe2417fb52bd30ddf7e7a95
+cover: https://imgapi.xl0408.top?uuid=e2d2a1153fe2417fb52bd30ddf7e7a95
 ---
 
 ```js

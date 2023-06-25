@@ -12,7 +12,7 @@ tags:
   - table删除鼠标悬浮背景颜色变色的效果
 abbrlink: 28372
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=d97a01caa8e24b5ba19ae1cfc2690e42
+cover: https://imgapi.xl0408.top?uuid=d97a01caa8e24b5ba19ae1cfc2690e42
 ---
 
 ```css

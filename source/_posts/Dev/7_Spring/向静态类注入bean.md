@@ -10,7 +10,7 @@ tags:
   - 向静态类注入bean
 abbrlink: 50567
 date: 2023-03-06 15:47:44
-cover: https://sex.nyan.xyz/api/v2/img?uuid=24be6bc87e5a4ebc9c3a2fa8f43e4ebc
+cover: https://imgapi.xl0408.top?uuid=24be6bc87e5a4ebc9c3a2fa8f43e4ebc
 ---
 ## 方式1
 ```java
