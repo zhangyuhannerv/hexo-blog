@@ -998,7 +998,7 @@ CDN:
 # electric_clock (安知鱼电子钟)
 # see https://anzhiy.cn/posts/fc18.html
 electric_clock:
-  enable: true # 开关
+  enable: false # 开关
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
   exclude:
