@@ -911,12 +911,14 @@ inject:
     - <link rel="stylesheet" href="/css/card.css">
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
-    - <canvas id="universe"></canvas>
-    - <script defer src="/js/universe.js"></script>
+    # 宇宙流星
+    # - <canvas id="universe"></canvas>
+    # - <script defer src="/js/universe.js"></script>
     - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
     - <script type="text/javascript" src="/js/rightmenu.js"></script>
+    - <script type="text/javascript" src="/js/dynamicBg.js"></script>
     # 樱花下落特效
-    # - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
+    - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
