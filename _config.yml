@@ -153,3 +153,6 @@ live2d:
 # 双栏布局
 butterfly_article_double_row:
   enable: true
+# 加密
+encrypt:
+  enable: true

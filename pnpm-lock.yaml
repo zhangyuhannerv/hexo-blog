@@ -4,6 +4,7 @@ specifiers:
   cheerio: 1.0.0-rc.12
   hexo: ^6.3.0
   hexo-abbrlink: ^2.2.1
+  hexo-blog-encrypt: ^3.1.9
   hexo-butterfly-article-double-row: ^1.0.2
   hexo-butterfly-clock-anzhiyu: ^1.1.8
   hexo-deployer-git: ^4.0.0
@@ -29,6 +30,7 @@ dependencies:
   cheerio: 1.0.0-rc.12
   hexo: 6.3.0
   hexo-abbrlink: 2.2.1
+  hexo-blog-encrypt: 3.1.9
   hexo-butterfly-article-double-row: 1.0.2
   hexo-butterfly-clock-anzhiyu: 1.1.8
   hexo-deployer-git: 4.0.0
@@ -1442,7 +1444,7 @@ packages:
     resolution: {integrity: sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==}
     engines: {node: '>= 4.0'}
     os: [darwin]
-    deprecated: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+    deprecated: The v1 package contains DANGEROUS / INSECURE binaries. Upgrade to safe fsevents v2
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
@@ -1646,6 +1648,10 @@ packages:
     dependencies:
       hexo-front-matter: 1.0.0
       hexo-fs: 3.1.0
+    dev: false
+
+  /hexo-blog-encrypt/3.1.9:
+    resolution: {integrity: sha512-dzuZiW5mD8t1FOhJXqc+IgV1Tc45YtatJb/w8k4PyT9McQxsROQXsBw+zbDembzuqMnbnkCeT2SapZ/r9AgAcw==}
     dev: false
 
   /hexo-bunyan/1.0.0:

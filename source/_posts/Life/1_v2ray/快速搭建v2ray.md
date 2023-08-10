@@ -10,7 +10,8 @@ tags:
   - 快速搭建v2ray
 abbrlink: 47358
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=b63b06a2097c4242b75927288dc13c4b
+cover: https://imgapi.xl0408.top?uuid=47358
+password: Zh13Yu55Ha16
 ---
 
 ## v2ray 一键脚本安装
