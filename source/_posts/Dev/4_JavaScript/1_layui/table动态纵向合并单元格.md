@@ -12,7 +12,7 @@ tags:
   - table动态纵向合并单元格
 abbrlink: 14114
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=8484e35cd7ef48938a8a41981f959181
+cover: https://imgapi.xl0408.top?uuid=14114
 ---
 
 ```js
@@ -24,9 +24,7 @@ table.render({
             cols: [
                 //一级表头
                 [
-                    {title: '官方序号', type: 'numbers', align: 'center', halign: 'center', hide: true},
-                    {title: '模板索引', field: 'index1', align: 'center', halign: 'center', hide: true},
-                    {title: '序号', field: 'index2', align: 'center', halign: 'center',},
+                    {title: '序号', type: 'numbers', align: 'center', halign: 'center', hide: true},
                     {title: '区段', field: 'qj', align: 'center', halign: 'center',},
                     {title: '通道', field: 'lx', align: 'center', halign: 'center',},
                     {title: '超限数量', field: 'sl', align: 'center', halign: 'center'},
@@ -49,20 +47,20 @@ table.render({
 
 // 动态和并单元格的方法
 function merge(res, id) {
-        var data = res.data;
-        var mergeIndex = 0;//定位需要添加合并属性的行数
-        var mark = 1; //这里涉及到简单的运算，mark是计算每次需要合并的格子数
-        var columsName = ['index2', 'qj'];//需要合并的列名称
-        /*这里的索引是表格col[]数组的下标，下标从0开始，隐藏的列也要算。注意，index列请在后台把要合并的行转为1111，22，3333，444444……..的格式*/
-        var columsIndex = [2, 3];//需要合并的列索引值
+        let data = res.data;
+        let mergeIndex = 0;//定位需要添加合并属性的行数
+        let mark = 1; //这里涉及到简单的运算，mark是计算每次需要合并的格子数
+        // 这里的索引是表格col[]数组的下标，下标从0开始，隐藏的列也要算
+        let columsIndex = [2, 3];//需要合并的列索引值
 
-        for (var k = 0; k < columsName.length; k++) { //这里循环所有要合并的列
-            var trArr = $("[lay-id='" + id + "']>.layui-table-box>.layui-table-body>.layui-table").find("tr");//所有行
-            for (var i = 1; i < res.data.length; i++) { //这里循环表格当前的数据
-                var tdCurArr = trArr.eq(i).find("td").eq(columsIndex[k]);//获取当前行的当前列
-                var tdPreArr = trArr.eq(mergeIndex).find("td").eq(columsIndex[k]);//获取相同列的第一列
-
-                if (data[i][columsName[k]] === data[i - 1][columsName[k]]) { //后一行的值与前一行的值做比较，相同就需要合并
+        for (let k = 0; k < columsName.length; k++) { //这里循环所有要合并的列
+            let trArr = $("[lay-id='" + id + "']>.layui-table-box>.layui-table-body>.layui-table").find("tr");//所有行
+            for (let i = 1; i < res.data.length; i++) { //这里循环表格当前的数据
+                let tdCurArr = trArr.eq(i).find("td").eq(columsIndex[k]);//获取当前行的当前列
+                let tdPreArr = trArr.eq(mergeIndex).find("td").eq(columsIndex[k]);//获取相同列的第一列
+                // 这里的markId就是合并的标识或者说条件，可以有多个，当相邻的某些行数据的这些属性相等时，上面设置的列索引中
+                // 所包含的列就会合并
+                if (data[i].markId === data[i - 1].markId) { { //后一行的值与前一行的值做比较，相同就需要合并
                     mark += 1;
                     tdPreArr.each(function () {//相同列的第一列增加rowspan属性
                         $(this).attr("rowspan", mark);
