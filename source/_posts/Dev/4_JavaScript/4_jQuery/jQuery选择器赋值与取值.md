@@ -100,4 +100,14 @@ if($("#chk1").attr('checked')){
   // 判断是否已经勾选
 } 
 
+
+// 获取所有选中的多选框的值
+<input type="checkbox" name="myName" value="1" checked>
+<input type="checkbox" name="myName" value="2" checked>
+<input type="checkbox" name="myName" value="3">
+const arr = [];
+$('input[type=checkbox][name=myName]:checked').each(function () {
+    arr.push($(this).val());
+});
+
 ```
