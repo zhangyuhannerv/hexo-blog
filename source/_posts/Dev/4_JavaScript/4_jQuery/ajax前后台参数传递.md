@@ -572,6 +572,81 @@ cover: https://imgapi.xl0408.top?uuid=266498f3515f4ea2abbfd761702ef2eb
    }
    ```
 
+   注意：如果不限于jQuery,比如vue，通用情况下，RequestHeader里面的Content-Type为`multipart/form-data`
+   后台不能用`@RequestParam("file[]") MultipartFile[] file`这种方式接收文件，要用一个对象来接收，下面是例子
+
+   ```js
+      // vue代码 上传文件组件，采用element-plus
+      <el-upload
+          ref="upload"
+          class="upload-files"
+          action=""
+          name="files"
+          multiple
+          :auto-upload="false"
+          :file-list="fileList"
+          :on-change="handleChange"
+          style="margin-top: 20px"
+      >
+        <el-button slot="trigger" type="primary">选取文件</el-button>
+      </el-upload>
+      <div slot="footer" class="dialog-footer">
+        <el-button type="primary" @click="submitUpload">保存</el-button>
+      </div>
+
+      // 这里采用的是手动上传，选取文件后，点击保存才会触发上传操作
+      <script setup>
+        // 上传文件数组
+        const fileList = ref([]) 
+        
+        // 文件改变时回调钩子
+        const handleChange = (file, files) => {
+          // file是当前上传的文件，files是当前所有的文件，
+          // 不懂得话可以打印一下这两个数据 就能明白
+          
+          fileList.value = files
+        }
+        
+        // 测试多文件上传
+        const submitUpload = async () => {
+          let formData = new FormData()
+          formData.append('name', 'myk')
+          fileList.value.forEach(item => {
+            // 这里有个坑，在将文件append到formData的时候， item其实并不是真是数据 item.raw才是
+            formData.append('files', item.raw)
+          })
+            // 这里是发送请求，注意 headers: {'Content-Type': 'multipart/form-data'}
+          let result = await requestUtil.fileUpload('/testUpload', formData)
+          console.log(result)
+        }
+      </script>
+   ```
+
+   ```java
+    @RestController
+    @CrossOrigin
+    public class TestUpload {
+        @PostMapping("/testUpload")
+        // 不需要添加@requestBody 因为这是前端Content-Type不是application/json
+        public String testUpload(TestUploadVo testUploadVo) {
+            for (MultipartFile file : testUploadVo.getFiles()) {
+                System.out.println(file.getOriginalFilename());
+    
+            }
+            System.out.println(testUploadVo.getName());
+            return "ok";
+        }
+    }
+
+
+    @Data
+    public class TestUploadVo {
+        private String name;
+    
+        private MultipartFile[] files;
+    }
+   ```
+
    注意：有的时候`@RequestParam("file[]") MultipartFile[] file`获取到的文件数组的长度为 0
    此时，可以用如下的方式获取文件数组 or 集合
 
