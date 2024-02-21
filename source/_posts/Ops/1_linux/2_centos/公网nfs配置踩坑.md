@@ -68,7 +68,7 @@ systemctl start nfs-server.service
 ### 客户端检查rpc状态
 
 ```bash
-rpcinfo -p10.10.52.140
+rpcinfo -p 10.10.52.140
 ```
 
 出现以下结果证明没问题
@@ -106,7 +106,7 @@ program vers proto   port
 ### 客户端检查目录共享状态
 
 ```bash
-showmount -e  10.10.52.140
+showmount -e 10.10.52.140
 ```
 
 出现以下结果证明没问题
@@ -131,7 +131,7 @@ Exports list on 10.10.52.140:
 /data/gsgc                          *
 ```
 
-如果报错，那么就检查还有哪些端口为正确开放
+如果报错，那么就检查还有哪些端口未正确开放
 
 ### 挂载
 
