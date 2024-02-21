@@ -1,6 +1,5 @@
 ---
 title: 公网nfs配置踩坑
-
 categories:
   - Ops
   - linux
@@ -10,8 +9,9 @@ tags:
   - linux
   - centos
   - nfs
+cover: 'https://imgapi.xl0408.top?uuid=973'
+abbrlink: 973
 date: 2024-02-21 14:47:44
-cover: https://imgapi.xl0408.top?uuid=afd8a1b1dec942c5adb54ba83e2d587d
 ---
 
 ## 背景
