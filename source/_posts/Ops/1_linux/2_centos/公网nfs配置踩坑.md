@@ -141,4 +141,36 @@ mkdir -p /nfs/gwxj
 mount -t nfs -o nolock,vers=3 10.10.52.140:/data/hdt2 /nfs/gwxj
 ```
 
+成功，可以在客户端和服务端分别创建修改文件测试一下
+
+### 端口替换
+
+如果不想使用默认的端口2049，可以自己指定端口。
+
+```bash
+vim /etc/sysconfig/nfs
+```
+
+在最后追加一行
+
+```text
+RPCNFSDARGS="-p 12049"
+```
+
+然后依次重启rpc和nfs
+
+```bash
+systemctl restart rpcbind.service
+systemctl restart nfs-server.service
+```
+
+修改堡垒机的端口映射，注意，内网和公网端口必须一致，否则挂载不上
+内网12049：公网12049
+
+客户端挂载
+
+```bash
+mount -t nfs -o nolock,vers=3,port=12049 10.10.52.140:/data/hdt2 /data/hdt2 
+```
+
 成功だぜ、(o゜▽゜)o☆[BINGO!]
