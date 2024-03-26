@@ -24,8 +24,6 @@ date: 2023-08-25 15:02:19
 ```js
 // 获取radio选中的值
 $("input[name='jclx']:checked").val()
-// 或者
-$('input[name=jclx][checked]').val()
 
 // 设置radio选中的值
 $("input[name='jclx'][value='1']").prop("checked", true)
