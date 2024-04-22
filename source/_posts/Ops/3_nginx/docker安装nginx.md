@@ -9,7 +9,7 @@ tags:
   - docker安装nginx
 cover: 'https://imgapi.xl0408.top?uuid=57560'
 abbrlink: 57560
-date: 2023-04-22 14:48:10
+date: 2024-04-22 14:48:10
 ---
 
 ```bash
