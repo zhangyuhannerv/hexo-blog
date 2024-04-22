@@ -64,9 +64,11 @@ sentinel auth-pass mymaster 123456
 
 3. 启动
 
-先启动redis主节点
+先按照特定顺序启动redis主从模式
 
-再启动redis的两台从节点（不分顺序）
+先启动redis主节点redis服务
+
+再启动redis的两台从节点（不分顺序）redis服务
 
 都启动完成后进入主节点的redis.cli
 
