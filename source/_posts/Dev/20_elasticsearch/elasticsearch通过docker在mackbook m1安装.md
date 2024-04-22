@@ -1,5 +1,5 @@
 ---
-title: 1.elasticsearch通过docker在mackbook m1安装
+title: elasticsearch通过docker在mackbook m1安装
 categories:
   - Dev
   - elasticsearch
