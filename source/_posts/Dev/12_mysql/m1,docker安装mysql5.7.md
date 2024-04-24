@@ -49,6 +49,7 @@ lower_case_table_names=1
 
 
 # 运行容器(在配置文件保存之后)
+# 可以把--network去掉，或者自己建个自定义网络els
 docker run -p 3306:3306 --name mysql-5.7 --network els \
 -v /Users/zhangyuhan/Work/dev-env/mysql-5.7/log:/var/log/mysql \
 -v /Users/zhangyuhan/Work/dev-env/mysql-5.7/data:/var/lib/mysql \
