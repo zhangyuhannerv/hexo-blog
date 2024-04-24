@@ -9,7 +9,7 @@ tags:
   - 'm1,docker安装rabbitmq'
 cover: 'https://imgapi.xl0408.top?uuid=56360'
 abbrlink: 56360
-date: 2023-04-24 16:31:23
+date: 2024-04-24 16:31:23
 ---
 
 ```bash
