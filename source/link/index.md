@@ -12,7 +12,7 @@ type: 'link'
 
   - name: Hexo
     link: https://hexo.io/zh-tw/
-    avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+    avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.
     descr: 快速简单，而且强大的博客框架
   - name: Butterfly
     link: https://butterfly.js.org/
@@ -26,9 +26,13 @@ type: 'link'
 - class_name: 技术博客
   class_desc: 技术，大神，架构，源码
   link_list:
-
   - name: WuZenggangのblog
     link: https://plantre.github.io/blog/
     avatar: /img/theme/avatar.gif
     descr: 技术大神
+  - name: OYの博客
+    link: https://oy6090.top/
+    avatar: https://oy6090.top/img/avatar.png
+    descr: 主要用来参考谷粒商城
+
 {% endflink %}
