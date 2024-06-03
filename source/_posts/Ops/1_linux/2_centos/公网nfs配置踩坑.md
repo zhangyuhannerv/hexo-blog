@@ -37,7 +37,7 @@ date: 2024-02-21 14:47:44
 # 修改
 vim /etc/sysconfig/nfs
 # 追加以下内容
-MOUNTD_PORT=4001 #必须 （挂载端口）
+MOUNTD_PORT=4001 #必须 （挂载端口，也可以不在配置文件上追加，而是全文搜索该配置项，在原先的上面直接修改）
 STATD_PORT=4002 # 可选 （不知道干啥的）
 LOCKD_TCPPORT=4003 # 可选（管理锁状态）
 LOCKD_UDPPORT=4003 # 可选（管理锁状态）
