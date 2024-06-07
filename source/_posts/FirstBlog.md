@@ -2,7 +2,8 @@
 title: hello world
 abbrlink: 14785
 date: 2023-03-03 16:46:38
-cover: https://imgapi.xl0408.top?uuid=13db1242ff564e3095df91db3b0c26af
+cover: https://imgapi.xl0408.top?uuid=14785
+mathjax: true
 ---
 
 值此博客建站成功之际，难以抑制内心的激动心情
@@ -37,7 +38,13 @@ public static void main(String[] args){
 
 还要整合的模块
 
-- [ ] 评论系统
-- [ ] 搜索系统
+- [x] 评论系统
+- [x] 搜索系统
 - [ ] 网站验证
 - [ ] 广告
+
+---
+公式测试(mathjax)
+$$
+e^{i\theta}=\cos\theta+i\sin\theta
+$$

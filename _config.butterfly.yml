@@ -77,7 +77,7 @@ docsearch:
 
 # MathJax
 mathjax:
-  enable: false
+  enable: true
   per_page: false
 
 # KaTeX
@@ -94,7 +94,7 @@ favicon: /img/theme/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: /img/theme/avatar.jpg
+  img: /img/theme/shenhe.jpg
   effect: false
 
 # Disable all banner image
@@ -130,7 +130,7 @@ category_per_img:
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(/img/theme/banner.jpg)
+background: url(/img/theme/banner1.jpg)
 
 # Footer Background
 footer_bg:
@@ -176,7 +176,7 @@ post_meta:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -660,7 +660,8 @@ subtitle:
     #- 今日事&#44;今日畢
     #- Never put off till tomorrow what you can do today
     #- 今日のことは今日で終わります
-    - 涩涩是人类进步的阶梯  ——沃兹基硕德
+    - 涩涩是人类进步的阶梯
+    - 人の梦は终わらねエ
 
 # Loading Animation (加載動畫)
 preloader:
@@ -849,14 +850,14 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
@@ -907,7 +908,7 @@ inject:
     - <link rel="stylesheet" href="/css/font.css">
     - <link rel="stylesheet" href="/css/modify.css">
     - <link rel="stylesheet" href="/css/universe.css">
-    - <link rel="stylesheet" href="/css/mouse.css">
+    #    - <link rel="stylesheet" href="/css/mouse.css">
     - <link rel="stylesheet" href="/css/card.css">
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:
@@ -915,7 +916,7 @@ inject:
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
     - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
-    - <script type="text/javascript" src="/js/rightmenu.js"></script>
+    #    - <script type="text/javascript" src="/js/rightmenu.js"></script>
     - <script type="text/javascript" src="/js/dynamicBg.js"></script>
     # 樱花下落特效
     # - <script async src="https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js"></script>

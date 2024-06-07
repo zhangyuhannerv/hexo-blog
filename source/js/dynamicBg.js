@@ -1,7 +1,13 @@
 function dynamicBg() {
   let img = new Image()
+  const timer = '0'
+  let imgUrl = 'https://www.loliapi.com/acg/'
   setInterval(() => {
-    let url = 'https://www.loliapi.com/acg/?number=' + Math.random()
+    let remainder = new Date().getSeconds().toString()
+    if (remainder !== timer) {
+      return
+    }
+    let url = imgUrl + '?number=' + Math.random()
     img.src = url
     img.addEventListener('load', function () {
       $('#web_bg').fadeOut(3000, function () {
@@ -9,6 +15,6 @@ function dynamicBg() {
         $('#web_bg').fadeIn(3000)
       })
     })
-  }, 60000)
+  }, 1000)
 }
 dynamicBg()
