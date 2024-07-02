@@ -541,10 +541,10 @@ public class StuTest {
 </select>
 ```
 
-### MyBatis多对一关联查询
+### MyBatis一对一关联查询
 
 ```xml
-<!--多对一-->
+<!--一对一-->
 <resultMap id="myTeacher" type="teacher">
     <id property="tid" column="tid"/>
     <result property="tname" column="tname"/>
@@ -558,7 +558,7 @@ public class StuTest {
 </resultMap>
 
 
-<!--多对一-->
+<!--一对一-->
 <select id="find2" resultMap="myTeacher">
 select  *  from  teacher  t right join student1 s on  t.sid=s.sid
 </select>
