@@ -15,11 +15,11 @@ date: 2024-07-08 11:12:13
 
 ```bash
 docker run -d -p 9000:9000 -p 9001:9001 \
-     --net=els \
-     --name minio \
-     -e "MINIO_ROOT_USER=minio" \
-     -e "MINIO_ROOT_PASSWORD=minio123" \
-     -v /Users/zhangyuhan/Work/dev-env/minio/data:/data \
-     -v /Users/zhangyuhan/Work/dev-env/minio/config:/root/.minio \
-     minio/minio server /data --console-address ":9001" -address ":9000"
+--net=els \
+--name minio \
+-e "MINIO_ROOT_USER=minio" \
+-e "MINIO_ROOT_PASSWORD=minio123" \
+-v /Users/zhangyuhan/Work/dev-env/minio/data:/data \
+-v /Users/zhangyuhan/Work/dev-env/minio/config:/root/.minio \
+minio/minio server /data --console-address ":9001" -address ":9000"
 ```
