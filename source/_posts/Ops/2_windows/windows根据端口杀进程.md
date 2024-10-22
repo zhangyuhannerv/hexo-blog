@@ -1,16 +1,15 @@
 ---
-title: 根据端口直接关闭进程
-
+title: windows根据端口杀进程
 categories:
   - Ops
   - windows
 tags:
   - Ops
   - windows
-  - 根据端口直接关闭进程
-abbrlink: 64156
+  - windows根据端口杀进程
+cover: 'https://imgapi.xl0408.top?uuid=48396'
+abbrlink: 48396
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=a7d16e14ae9d40078ef7f259aa6fa2b4
 ---
 
 以 8088 端口为例：
