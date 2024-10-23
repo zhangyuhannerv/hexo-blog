@@ -915,7 +915,7 @@ inject:
     # 宇宙流星
     - <canvas id="universe"></canvas>
     - <script defer src="/js/universe.js"></script>
-    - <script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script>
+    - <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     #    - <script type="text/javascript" src="/js/rightmenu.js"></script>
     - <script type="text/javascript" src="/js/dynamicBg.js"></script>
     # 樱花下落特效
