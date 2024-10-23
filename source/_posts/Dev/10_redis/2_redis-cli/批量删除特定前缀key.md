@@ -12,7 +12,7 @@ tags:
   - 批量删除特定前缀key
 abbrlink: 11739
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=edc6771c60284c3c9e7983f383ce9530
+cover: https://www.loliapi.com/acg/?uuid=edc6771c60284c3c9e7983f383ce9530
 ---
 
 ```shell

@@ -12,7 +12,7 @@ tags:
   - '@Async和@EnableAsync注解'
 abbrlink: 28711
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=3afa95e335d04171b88fc9c4ebf1d371
+cover: https://www.loliapi.com/acg/?uuid=3afa95e335d04171b88fc9c4ebf1d371
 ---
 
 ## 1） 含义：

@@ -10,7 +10,7 @@ tags:
   - union和union all 关键字
 abbrlink: 32462
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=cfcd3dbc4ee7436ca0803998ff4faf56
+cover: https://www.loliapi.com/acg/?uuid=cfcd3dbc4ee7436ca0803998ff4faf56
 ---
 
 - 区别 1：取结果的交集

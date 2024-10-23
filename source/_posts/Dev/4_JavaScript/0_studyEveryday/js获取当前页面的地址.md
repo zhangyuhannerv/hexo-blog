@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - studyEveryday
   - js获取当前页面的地址
-cover: 'https://imgapi.xl0408.top?uuid=15931'
+cover: 'https://www.loliapi.com/acg/?uuid=15931'
 abbrlink: 15931
 date: 2023-10-25 14:42:13
 ---

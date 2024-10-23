@@ -9,7 +9,7 @@ tags:
   - redis主从
   - redis哨兵
   - redis集群
-cover: 'https://imgapi.xl0408.top?uuid=30107'
+cover: 'https://www.loliapi.com/acg/?uuid=30107'
 abbrlink: 30107
 date: 2024-02-29 11:28:01
 ---

@@ -7,7 +7,7 @@ tags:
   - Life
   - 公共api
   - 随机图片api整理
-cover: 'https://imgapi.xl0408.top?uuid=41139'
+cover: 'https://www.loliapi.com/acg/?uuid=41139'
 abbrlink: 41139
 date: 2023-07-19 17:16:24
 ---

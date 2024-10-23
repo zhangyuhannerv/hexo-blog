@@ -7,7 +7,7 @@ tags:
   - Ops
   - MySql
   - mysqldump定时备份
-cover: 'https://imgapi.xl0408.top?uuid=29320'
+cover: 'https://www.loliapi.com/acg/?uuid=29320'
 abbrlink: 29320
 date: 2023-11-21 11:42:01
 ---

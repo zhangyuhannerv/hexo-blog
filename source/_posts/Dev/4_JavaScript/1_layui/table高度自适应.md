@@ -12,7 +12,7 @@ tags:
   - table高度自适应
 abbrlink: 11603
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=379c9b0a20d54333b37ec99f0a6888d6
+cover: https://www.loliapi.com/acg/?uuid=379c9b0a20d54333b37ec99f0a6888d6
 ---
 
 只需要给表格加上一下 css 即可，加上之后，使用 templet 可以自定义格式化 html 来填充每个 td 的高度

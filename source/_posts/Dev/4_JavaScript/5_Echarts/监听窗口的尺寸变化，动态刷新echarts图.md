@@ -12,7 +12,7 @@ tags:
   - 监听窗口的尺寸变化，动态刷新echarts图
 abbrlink: 9557
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=371cec663c74443faff9e2524c0241ed
+cover: https://www.loliapi.com/acg/?uuid=371cec663c74443faff9e2524c0241ed
 ---
 
 ```js

@@ -7,7 +7,7 @@ tags:
   - Ops
   - nginx
   - docker安装nginx
-cover: 'https://imgapi.xl0408.top?uuid=57560'
+cover: 'https://www.loliapi.com/acg/?uuid=57560'
 abbrlink: 57560
 date: 2024-04-22 14:48:10
 ---

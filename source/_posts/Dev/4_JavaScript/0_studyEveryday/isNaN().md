@@ -12,7 +12,7 @@ tags:
   - isNaN()
 abbrlink: 15930
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=15930
+cover: https://www.loliapi.com/acg/?uuid=15930
 ---
 
 sNaN() 函数其实并不能像它的描述中所写的那样，数字值返回 false，其他返回 true。

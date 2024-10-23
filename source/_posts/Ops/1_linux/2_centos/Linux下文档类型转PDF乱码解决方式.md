@@ -12,7 +12,7 @@ tags:
   - Linux下文档类型转PDF乱码解决方式
 abbrlink: 29596
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=afd8a1b1dec942c5adb54ba83e2d587d
+cover: https://www.loliapi.com/acg/?uuid=afd8a1b1dec942c5adb54ba83e2d587d
 ---
 
 在 Linux 系统下进行文本类型转 PDF 时出现乱码。

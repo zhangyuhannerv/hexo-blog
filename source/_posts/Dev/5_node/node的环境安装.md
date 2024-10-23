@@ -10,7 +10,7 @@ tags:
   - node的环境安装
 abbrlink: 24427
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=054c3f100cda4154aadefde737d1d015
+cover: https://www.loliapi.com/acg/?uuid=054c3f100cda4154aadefde737d1d015
 ---
 
 ## nvm

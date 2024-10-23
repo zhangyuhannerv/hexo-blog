@@ -7,7 +7,7 @@ tags:
   - Dev
   - OAuth2.0
   - OAuth 2.0 第三方登录
-cover: 'https://imgapi.xl0408.top?uuid=14380'
+cover: 'https://www.loliapi.com/acg/?uuid=14380'
 abbrlink: 14380
 date: 2023-05-09 09:04:44
 ---

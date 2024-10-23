@@ -2,7 +2,7 @@
 title: hello world
 abbrlink: 14785
 date: 2023-03-03 16:46:38
-cover: https://imgapi.xl0408.top?uuid=14785
+cover: https://www.loliapi.com/acg/?uuid=14785
 mathjax: true
 ---
 

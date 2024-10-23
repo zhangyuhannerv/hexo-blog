@@ -9,7 +9,7 @@ tags:
   - Java
   - studyEveryday
   - Arrays.asList() 的坑
-cover: 'https://imgapi.xl0408.top?uuid=58200'
+cover: 'https://www.loliapi.com/acg/?uuid=58200'
 date: '2023-07-20 17:52:12'
 abbrlink: 58200
 ---

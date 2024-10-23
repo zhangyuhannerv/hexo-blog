@@ -12,7 +12,7 @@ tags:
   - unzip解压
 abbrlink: 9281
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=83786ea405d24f82a6f0e2e508c57631
+cover: https://www.loliapi.com/acg/?uuid=83786ea405d24f82a6f0e2e508c57631
 ---
 
 ## 无论压缩文件下有多少层级，所有解压后的文件都统一放在 outFileDir 文件夹下，且只保留压缩的文件，压缩的文件夹不保留

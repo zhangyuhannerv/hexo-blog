@@ -12,7 +12,7 @@ tags:
   - java.lang.UnsupportedOperationException：null 使用List.Add()或List.addALL() 报错
 abbrlink: 60898
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=7414c85bd7c046ed91e02ce54ebc7dc0
+cover: https://www.loliapi.com/acg/?uuid=7414c85bd7c046ed91e02ce54ebc7dc0
 ---
 
 还原现场：

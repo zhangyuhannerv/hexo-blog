@@ -7,7 +7,7 @@ tags:
   - Dev
   - mybatisPlus
   - mybatis-plus无法使用BaseMapper的公用方法
-cover: 'https://imgapi.xl0408.top?uuid=14681'
+cover: 'https://www.loliapi.com/acg/?uuid=14681'
 abbrlink: 14681
 date: 2023-06-28 14:49:44
 ---

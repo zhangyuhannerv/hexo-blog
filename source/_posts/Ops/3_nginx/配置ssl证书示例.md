@@ -7,7 +7,7 @@ tags:
   - Ops
   - nginx
   - 配置ssl证书示例
-cover: 'https://imgapi.xl0408.top?uuid=62002'
+cover: 'https://www.loliapi.com/acg/?uuid=62002'
 abbrlink: 62002
 date: 2024-05-10 10:38:13
 ---

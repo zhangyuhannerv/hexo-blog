@@ -9,7 +9,7 @@ tags:
   - Java
   - studyEveryday
   - 'java:Path与Files类'
-cover: 'https://imgapi.xl0408.top?uuid=44557'
+cover: 'https://www.loliapi.com/acg/?uuid=44557'
 date: '2024-06-19 14:19:24'
 abbrlink: 44557
 ---

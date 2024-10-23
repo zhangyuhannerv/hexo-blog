@@ -7,7 +7,7 @@ tags:
   - Dev
   - RabbitMq
   - 'm1,docker安装rabbitmq'
-cover: 'https://imgapi.xl0408.top?uuid=56360'
+cover: 'https://www.loliapi.com/acg/?uuid=56360'
 abbrlink: 56360
 date: 2024-04-24 16:31:23
 ---

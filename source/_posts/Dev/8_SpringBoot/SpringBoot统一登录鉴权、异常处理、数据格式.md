@@ -8,7 +8,7 @@ tags:
   - SpringBoot
   - SpringBoot统一登录鉴权、异常处理、数据格式
 abbrlink: 39078
-cover: https://imgapi.xl0408.top?uuid=39078
+cover: https://www.loliapi.com/acg/?uuid=39078
 date: 2023-04-14 15:47:44
 ---
 

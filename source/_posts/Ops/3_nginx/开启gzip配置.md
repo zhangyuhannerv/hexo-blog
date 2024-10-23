@@ -10,7 +10,7 @@ tags:
   - 开启gzip配置
 abbrlink: 2714
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=552fa8acdafc43158bb606e1d7125727
+cover: https://www.loliapi.com/acg/?uuid=552fa8acdafc43158bb606e1d7125727
 ---
 
 配置示例

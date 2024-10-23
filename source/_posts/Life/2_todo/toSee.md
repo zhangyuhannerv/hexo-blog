@@ -10,7 +10,7 @@ tags:
   - toSee
 abbrlink: 30134
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=30134
+cover: https://www.loliapi.com/acg/?uuid=30134
 password: Zh13Yu55Ha16
 ---
 

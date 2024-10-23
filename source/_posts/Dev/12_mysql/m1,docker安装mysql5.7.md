@@ -7,7 +7,7 @@ tags:
   - Dev
   - mysql
   - 'm1,docker安装mysql5.7'
-cover: 'https://imgapi.xl0408.top?uuid=2459'
+cover: 'https://www.loliapi.com/acg/?uuid=2459'
 abbrlink: 2459
 date: 2024-04-24 15:19:11
 ---

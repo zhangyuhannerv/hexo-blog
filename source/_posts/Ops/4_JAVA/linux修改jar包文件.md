@@ -10,7 +10,7 @@ tags:
   - linux修改jar包文件
 abbrlink: 28105
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=62b105bde80046429367c3604262e906
+cover: https://www.loliapi.com/acg/?uuid=62b105bde80046429367c3604262e906
 ---
 
 1.  使用 jar tvf jar 名称 | grep 目标文件名 查询出目标文件在 war 包中的目录

@@ -12,7 +12,7 @@ tags:
   - layer弹出层table变形的问题
 abbrlink: 19453
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=a884f8919b65409e9e627a8cc34b71c2
+cover: https://www.loliapi.com/acg/?uuid=a884f8919b65409e9e627a8cc34b71c2
 ---
 
 解决方案 1

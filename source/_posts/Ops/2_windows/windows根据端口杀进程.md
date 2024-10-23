@@ -7,7 +7,7 @@ tags:
   - Ops
   - windows
   - windows根据端口杀进程
-cover: 'https://imgapi.xl0408.top?uuid=48396'
+cover: 'https://www.loliapi.com/acg/?uuid=48396'
 abbrlink: 48396
 date: 2023-03-06 15:47:44
 ---
