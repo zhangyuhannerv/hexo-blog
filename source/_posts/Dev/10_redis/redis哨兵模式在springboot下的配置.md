@@ -8,7 +8,7 @@ tags:
   - redis
   - 哨兵
   - sentinel
-cover: 'https://imgapi.xl0408.top?uuid=2684'
+cover: 'https://www.loliapi.com/acg/?uuid=2684'
 abbrlink: 2684
 date: 2024-02-23 16:20:15
 ---

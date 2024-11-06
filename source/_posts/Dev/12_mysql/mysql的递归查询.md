@@ -7,7 +7,7 @@ tags:
   - Dev
   - mysql
   - 递归查询demo
-cover: 'https://imgapi.xl0408.top?uuid=669'
+cover: 'https://www.loliapi.com/acg/?uuid=669'
 abbrlink: 669
 date: 2023-08-16 11:35:22
 ---

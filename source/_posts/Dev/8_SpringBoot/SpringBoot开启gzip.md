@@ -7,7 +7,7 @@ tags:
   - Dev
   - SpringBoot
   - SpringBoot开启gzip
-cover: 'https://imgapi.xl0408.top?uuid=7152'
+cover: 'https://www.loliapi.com/acg/?uuid=7152'
 abbrlink: 7152
 date: 2023-06-29 09:20:12
 ---

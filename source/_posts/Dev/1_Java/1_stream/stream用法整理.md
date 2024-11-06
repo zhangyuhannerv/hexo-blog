@@ -12,7 +12,7 @@ tags:
   - stream用法整理
 abbrlink: 31338
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=e90460d10b374058b3ae023916c44af2
+cover: https://www.loliapi.com/acg/?uuid=e90460d10b374058b3ae023916c44af2
 ---
 
 ## stream 流处理将用`,`拼接的字符串转为 Double 集合

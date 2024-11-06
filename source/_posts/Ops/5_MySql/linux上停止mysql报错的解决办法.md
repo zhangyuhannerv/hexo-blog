@@ -7,7 +7,7 @@ tags:
   - Ops
   - MySql
   - linux上停止mysql报错的解决办法
-cover: 'https://imgapi.xl0408.top?uuid=8695'
+cover: 'https://www.loliapi.com/acg/?uuid=8695'
 abbrlink: 8695
 date: 2023-07-28 14:29:14
 ---

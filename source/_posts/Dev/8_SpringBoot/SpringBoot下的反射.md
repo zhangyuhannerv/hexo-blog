@@ -7,7 +7,7 @@ tags:
   - Dev
   - SpringBoot
   - SpringBoot下的反射
-cover: 'https://imgapi.xl0408.top?uuid=18526'
+cover: 'https://www.loliapi.com/acg/?uuid=18526'
 abbrlink: 18526
 date: 2024-09-09 10:20:00
 ---

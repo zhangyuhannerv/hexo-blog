@@ -7,7 +7,7 @@ tags:
   - Dev
   - elasticsearch
   - elasticsearch通过docker安装（适配macbook m1）
-cover: 'https://imgapi.xl0408.top?uuid=50662'
+cover: 'https://www.loliapi.com/acg/?uuid=50662'
 abbrlink: 50662
 date: 2024-04-10 16:53:13
 ---

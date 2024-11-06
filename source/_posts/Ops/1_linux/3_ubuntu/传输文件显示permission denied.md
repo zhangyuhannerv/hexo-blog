@@ -12,7 +12,7 @@ tags:
   - 传输文件显示permission denied
 abbrlink: 28736
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=a2206758ecda4274b389ba841927acc8
+cover: https://www.loliapi.com/acg/?uuid=a2206758ecda4274b389ba841927acc8
 ---
 
 scp 默认不允许使用 root 账号传输文件.如果想用 root 账号传输文件，在两端服务器

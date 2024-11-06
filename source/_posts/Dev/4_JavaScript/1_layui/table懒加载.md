@@ -12,7 +12,7 @@ tags:
   - table懒加载
 abbrlink: 14808
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=6e4719a98a4e48059eb990216acfb091
+cover: https://www.loliapi.com/acg/?uuid=6e4719a98a4e48059eb990216acfb091
 ---
 
 ```js

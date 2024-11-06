@@ -10,7 +10,7 @@ tags:
   - 常用api整理
 abbrlink: 11039
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=692879fc5c1c488185d602b5b5130d0a
+cover: https://www.loliapi.com/acg/?uuid=692879fc5c1c488185d602b5b5130d0a
 ---
 
 ```java

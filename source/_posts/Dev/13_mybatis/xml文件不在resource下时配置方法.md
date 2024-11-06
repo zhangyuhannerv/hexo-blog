@@ -7,7 +7,7 @@ tags:
   - Dev
   - mybatisPlus
   - xml文件不在resource下时配置方法
-cover: 'https://imgapi.xl0408.top?uuid=59895'
+cover: 'https://www.loliapi.com/acg/?uuid=59895'
 abbrlink: 59895
 date: 2023-06-28 15:49:44
 ---

@@ -9,7 +9,7 @@ tags:
   - Java
   - studyEveryday
   - '@JsonFormat和@DateTimeFormat'
-cover: 'https://imgapi.xl0408.top?uuid=24020'
+cover: 'https://www.loliapi.com/acg/?uuid=24020'
 abbrlink: 24020
 date: 2024-10-20 13:40:07
 ---

@@ -7,7 +7,7 @@ tags:
   - Dev
   - redis
   - docker安装redis
-cover: 'https://imgapi.xl0408.top?uuid=44762'
+cover: 'https://www.loliapi.com/acg/?uuid=44762'
 abbrlink: 44762
 date: 2024-05-07 15:11:15
 ---

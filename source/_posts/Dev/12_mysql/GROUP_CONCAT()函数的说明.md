@@ -8,7 +8,7 @@ tags:
   - mysql
   - GROUP_CONCAT()
 abbrlink: 4112
-cover: 'https://imgapi.xl0408.top?uuid=4112'
+cover: 'https://www.loliapi.com/acg/?uuid=4112'
 date: 2023-09-08 15:33:11
 ---
 

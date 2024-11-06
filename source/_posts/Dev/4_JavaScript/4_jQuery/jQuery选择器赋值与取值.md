@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - jQuery
   - jQuery选择器赋值与取值
-cover: 'https://imgapi.xl0408.top?uuid=13486'
+cover: 'https://www.loliapi.com/acg/?uuid=13486'
 abbrlink: 13486
 date: 2023-08-25 15:02:19
 ---

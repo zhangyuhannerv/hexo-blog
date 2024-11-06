@@ -1,7 +1,7 @@
 ---
 title: 8种从spring容器里获取bean的方式
 cover: >-
-  https://imgapi.xl0408.top?uuid=13db1242ff564e3095df91db3b0c26ac
+  https://www.loliapi.com/acg/?uuid=13db1242ff564e3095df91db3b0c26ac
 abbrlink: 45582
 date: 2023-03-10 08:46:38
 ---

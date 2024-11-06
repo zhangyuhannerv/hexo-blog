@@ -7,7 +7,7 @@ tags:
   - Dev
   - minio
   - docker安装minio
-cover: 'https://imgapi.xl0408.top?uuid=63341'
+cover: 'https://www.loliapi.com/acg/?uuid=63341'
 abbrlink: 63341
 date: 2024-07-08 11:12:13
 ---

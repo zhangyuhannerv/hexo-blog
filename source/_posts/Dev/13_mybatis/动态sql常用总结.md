@@ -7,7 +7,7 @@ tags:
   - Dev
   - mybatis
   - 动态sql常用总结
-cover: 'https://imgapi.xl0408.top?uuid=13227'
+cover: 'https://www.loliapi.com/acg/?uuid=13227'
 abbrlink: 13227
 date: 2023-09-20 17:18:02
 ---

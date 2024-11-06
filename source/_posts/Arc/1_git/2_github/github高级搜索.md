@@ -12,7 +12,7 @@ tags:
   - github高级搜索
 abbrlink: 56030
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=e538130a50384ac7b840afa66ab14440
+cover: https://www.loliapi.com/acg/?uuid=e538130a50384ac7b840afa66ab14440
 ---
 
 ## github 搜索自己想要的项目,并添加更加详细的描述

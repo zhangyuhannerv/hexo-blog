@@ -10,7 +10,7 @@ tags:
   - 在maven库上添加手动添加第三方jar包
 abbrlink: 61509
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=72d6f84bc25b4599a346b54ce2f3dffb
+cover: https://www.loliapi.com/acg/?uuid=72d6f84bc25b4599a346b54ce2f3dffb
 ---
 
 进入到放这个 jar 包的文件夹，运行 cmd

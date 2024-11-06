@@ -12,7 +12,7 @@ tags:
   - Promise
 abbrlink: 30119
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=30119
+cover: https://www.loliapi.com/acg/?uuid=30119
 ---
 
 # promise 封装 ajax，并且 promise 的链式调用的示例

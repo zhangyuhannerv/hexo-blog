@@ -9,7 +9,7 @@ tags:
   - linux
   - general
   - 常用脚本
-cover: 'https://imgapi.xl0408.top?uuid=20615'
+cover: 'https://www.loliapi.com/acg/?uuid=20615'
 abbrlink: 20615
 date: 2023-07-24 09:38:21
 ---

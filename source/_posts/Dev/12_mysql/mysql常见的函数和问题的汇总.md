@@ -10,7 +10,7 @@ tags:
   - mysql常见的函数和问题的汇总
 abbrlink: 36898
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=b9b76376530b414d9c1394c12558c36e
+cover: https://www.loliapi.com/acg/?uuid=b9b76376530b414d9c1394c12558c36e
 ---
 
 - 注意 mysql 里面关于字符串的截取下标一般都是从 1 开始

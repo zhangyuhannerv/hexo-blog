@@ -9,7 +9,7 @@ tags:
   - Java
   - studyEveryday
   - java split()方法输出示例
-cover: 'https://imgapi.xl0408.top?uuid=64251'
+cover: 'https://www.loliapi.com/acg/?uuid=64251'
 date: '2024-06-06 10:12:24'
 abbrlink: 64251
 ---

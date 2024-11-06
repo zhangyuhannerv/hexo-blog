@@ -12,7 +12,7 @@ tags:
   - npm常用命令
 abbrlink: 34123
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=45967f6101054feb880c4397592aab1d
+cover: https://www.loliapi.com/acg/?uuid=45967f6101054feb880c4397592aab1d
 ---
 
 1. 检查前 NPM 源：

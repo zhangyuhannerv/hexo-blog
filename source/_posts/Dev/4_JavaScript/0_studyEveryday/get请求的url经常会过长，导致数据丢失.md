@@ -12,7 +12,7 @@ tags:
   - get请求的url经常会过长，导致数据丢失
 abbrlink: 17621
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=cb9684ae09844d678823de7acfaf263c
+cover: https://www.loliapi.com/acg/?uuid=cb9684ae09844d678823de7acfaf263c
 ---
 
 解决方案：采用 post 请求，来解决该问题，写一个采用 post 请求的函数即可

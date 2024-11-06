@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - layui
   - table动态纵向合并单元格
-cover: 'https://imgapi.xl0408.top?uuid=14116'
+cover: 'https://www.loliapi.com/acg/?uuid=14116'
 abbrlink: 14116
 date: 2023-08-25 14:30:11
 ---

@@ -12,7 +12,7 @@ tags:
   - 没有firewall-cmd命令
 abbrlink: 40422
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=68bb39bb4df6481a950a80bfd6a7b108
+cover: https://www.loliapi.com/acg/?uuid=68bb39bb4df6481a950a80bfd6a7b108
 ---
 
 ```bash

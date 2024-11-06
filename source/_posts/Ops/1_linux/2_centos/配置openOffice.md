@@ -12,7 +12,7 @@ tags:
   - 配置openOffice
 abbrlink: 62612
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=336dea2731e045cd85c04c3934a3627d
+cover: https://www.loliapi.com/acg/?uuid=336dea2731e045cd85c04c3934a3627d
 ---
 
 1.  下载 tar.gz 包。下载地址：[http://www.openoffice.org/zh-cn/](http://www.openoffice.org/zh-cn/) (需要下载 rpm 格式的)

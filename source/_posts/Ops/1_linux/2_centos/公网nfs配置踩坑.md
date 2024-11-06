@@ -9,7 +9,7 @@ tags:
   - linux
   - centos
   - nfs
-cover: 'https://imgapi.xl0408.top?uuid=973'
+cover: 'https://www.loliapi.com/acg/?uuid=973'
 abbrlink: 973
 date: 2024-02-21 14:47:44
 ---

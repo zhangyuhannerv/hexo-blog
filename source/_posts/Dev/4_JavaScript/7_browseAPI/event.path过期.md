@@ -9,7 +9,7 @@ tags:
   - JavaScript
   - browseAPI
   - event.path过期
-cover: 'https://imgapi.xl0408.top?uuid=65131'
+cover: 'https://www.loliapi.com/acg/?uuid=65131'
 abbrlink: 65131
 date: 2023-09-13 10:41:01
 ---

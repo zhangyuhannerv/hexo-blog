@@ -12,7 +12,7 @@ tags:
   - Kafka生产者、消费者的消息可靠性方案实现
 abbrlink: 60348
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=f114a8b50508496598847bca4dd0a04a
+cover: https://www.loliapi.com/acg/?uuid=f114a8b50508496598847bca4dd0a04a
 ---
 
 以下代码基于 SpringKafka 2.3.13.RELEASE + Boot 2.2.9.RELEASE 实现

@@ -8,7 +8,7 @@ tags:
   - mysql
   - mysql的安装
 cover: >-
-  https://imgapi.xl0408.top?uuid=43688
+  https://www.loliapi.com/acg/?uuid=43688
 abbrlink: 43688
 date: 2023-03-06 15:47:44
 ---

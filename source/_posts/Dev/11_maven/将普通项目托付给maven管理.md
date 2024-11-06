@@ -10,7 +10,7 @@ tags:
   - 将普通项目托付给maven管理
 abbrlink: 21615
 date: 2023-03-06 15:47:44
-cover: https://imgapi.xl0408.top?uuid=c6ac5707069e4746b46e3cf1cb838c83
+cover: https://www.loliapi.com/acg/?uuid=c6ac5707069e4746b46e3cf1cb838c83
 ---
 
 如需将一个 java 项目托付给 maven 管理。在项目的根目录下，建个 pom.xml 把以下内容复制进去。同时**右键把该项目标记为 maven 项目**(不同的 idea 版本该操作的名称可能不一样)
