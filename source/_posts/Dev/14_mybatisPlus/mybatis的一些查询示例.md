@@ -109,3 +109,35 @@ oracle没有mysql的concat()函数
     </select>
 ```
 
+## in查询传入list为null或者list的长度为0
+
+```java
+List<BuyingRequisitionBills> selectBuyingRequisitionBills(@Param("pkOrg") String pkOrg,
+                                                          @Param("sourceCodeSet") Set<String> sourceCode);
+```
+
+```xml
+SELECT
+  material.PK_MATERIAL materialPk,
+  pp.FBILLSTATUS billStatus,
+  FROM PO_PRAYBILL_B ppb
+        LEFT JOIN BD_MATERIAL_V material ON material.PK_MATERIAL = ppb.pk_material
+        LEFT JOIN PO_PRAYBILL pp ON pp.PK_PRAYBILL = ppb.PK_PRAYBILL
+  WHERE
+  pp.dr = 0 AND
+  ppb.dr = 0 AND
+  material.dr = 0 AND
+  pp.fpraysource = 9 AND
+  pp.PK_ORG = #{pkOrg}
+  <choose>
+      <when test="sourceCodeSet !=null and sourceCodeSet.size()>0">
+          AND ppb.VSOURCECODE in
+          <foreach item="item" index="index" collection="sourceCodeSet" open="(" separator="," close=")">
+              #{item}
+          </foreach>
+      </when>
+      <otherwise>
+          AND 0 = 1
+      </otherwise>
+  </choose>
+```
