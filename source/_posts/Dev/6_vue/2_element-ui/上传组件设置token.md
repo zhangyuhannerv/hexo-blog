@@ -12,10 +12,10 @@ tags:
   - 上传组件设置token
 abbrlink: 14250
 date: 2023-03-06 15:47:44
-cover: https://www.loliapi.com/acg/?uuid=b41804f9d29d409983d0185f57d24c88
+cover: https://www.loliapi.com/acg/?uuid=14250
 ---
 
-```vue
+```js
 <el-upload
   class="uploadBtn"
   accept="xlsx"
