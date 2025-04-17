@@ -911,6 +911,8 @@ inject:
     #    - <link rel="stylesheet" href="/css/mouse.css">
     - <link rel="stylesheet" href="/css/card.css">
     - <link rel="stylesheet" href="/css/custom.css">
+    # klaviyo订阅表单测试
+    # - <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Rmkf3k'></script>
   bottom:
     # 宇宙流星
     - <canvas id="universe"></canvas>
