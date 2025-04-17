@@ -913,10 +913,12 @@ inject:
     - <link rel="stylesheet" href="/css/custom.css">
     # klaviyo订阅表单测试
     # - <script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=Rmkf3k'></script>
+    # omnisend表单测试
+    # - <script type="text/javascript" src="/js/omnisend.js"></script>
   bottom:
     # 宇宙流星
     - <canvas id="universe"></canvas>
-    - <script defer src="/js/universe.js"></script>
+    - <script defer src="/js/universe.js"></scrip>
     - <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     #    - <script type="text/javascript" src="/js/rightmenu.js"></script>
     - <script type="text/javascript" src="/js/dynamicBg.js"></script>
