@@ -8,6 +8,7 @@ tags:
   - postgresql
   - docker
 cover: 'https://www.loliapi.com/acg/?uuid=63341'
+abbrlink: 53211
 date: 2025-08-09 11:12:13
 ---
 
