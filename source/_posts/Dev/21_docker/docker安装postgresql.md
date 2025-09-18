@@ -7,7 +7,7 @@ tags:
   - Dev
   - postgresql
   - docker
-cover: 'https://www.loliapi.com/acg/?uuid=63341'
+cover: 'https://www.loliapi.com/acg/?uuid=53211'
 abbrlink: 53211
 date: 2025-08-09 11:12:13
 ---
@@ -18,7 +18,7 @@ date: 2025-08-09 11:12:13
 version: '3.8'
 services:
   postgres:
-    image: 192.168.80.226:8080/template/postgres:15
+    image: postgres:15
     container_name: postgres
     restart: always
     environment:
@@ -31,9 +31,11 @@ services:
       - /home/docker/postgresql/postgresql-data:/var/lib/postgresql/data
 ```
 
-## 启动
+## 3.启停
 
 ```bash
-
+docker-compose up -d # 后台启动所有服务
+docker-compose down # 停止所有服务并删除容器和网络
+docker-compose start # 启动已存在但处于停止状态的容器（不重建）
+docker-compose stop # 停止正在运行的容器（不删除容器）
 ```
-
